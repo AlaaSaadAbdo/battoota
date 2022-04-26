@@ -7,8 +7,8 @@ I made this board for the following reasons:
 - Customized it to fit my hand (my index finger is shorter than my ring finger)
 - Added Tenting Puck support
 
-Here's how the board looks like:
+The ZMK shield for it can be found [here](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/34w_ducks) 
+
+Here's how the PCB looks like:
 
 ![keeb](images/pcb.png)
-
-The shield for it can be found [here](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/34w_ducks) 
