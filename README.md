@@ -9,6 +9,6 @@ I made this board for the following reasons:
 
 Here's how the board looks like:
 
-![keeb](images/keeb.png)
+![keeb](images/board.png)
 
 The shield for it can be found [here](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/34w_ducks) 
