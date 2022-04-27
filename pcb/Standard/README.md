@@ -1,1 +1,1 @@
-![keeb](images/pcb.png)
+![keeb](../../images/pcb.png)
