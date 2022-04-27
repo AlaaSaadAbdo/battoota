@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4-0)"
     },
-    "CreationDate": "2022-04-27T10:40:15+02:00"
+    "CreationDate": "2022-04-27T13:57:15+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "ducks",
-      "GUID": "6475636b-732e-46b6-9963-61645f706362",
+      "Name": "duck",
+      "GUID": "6475636b-2e6b-4696-9361-645f70636258",
       "Revision": "v1.0.0"
     },
     "Size": {
@@ -34,87 +34,87 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "ducks-F_Cu.gtl",
+      "Path": "duck-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-B_Cu.gbl",
+      "Path": "duck-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-F_Adhesive.gta",
+      "Path": "duck-F_Adhesive.gta",
       "FileFunction": "Glue,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-B_Adhesive.gba",
+      "Path": "duck-B_Adhesive.gba",
       "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-F_Paste.gtp",
+      "Path": "duck-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-B_Paste.gbp",
+      "Path": "duck-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-F_Silkscreen.gto",
+      "Path": "duck-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-B_Silkscreen.gbo",
+      "Path": "duck-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-F_Mask.gts",
+      "Path": "duck-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ducks-B_Mask.gbs",
+      "Path": "duck-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "ducks-User_Drawings.gbr",
+      "Path": "duck-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-User_Comments.gbr",
+      "Path": "duck-User_Comments.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-User_Eco1.gbr",
+      "Path": "duck-User_Eco1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-User_Eco2.gbr",
+      "Path": "duck-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-Edge_Cuts.gm1",
+      "Path": "duck-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-F_Fab.gbr",
+      "Path": "duck-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "ducks-B_Fab.gbr",
+      "Path": "duck-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
