@@ -12,4 +12,7 @@ The ZMK shield for it can be found [here](https://github.com/AlaaSaadAbdo/zmk-co
 
 Here's how the PCB looks like:
 
-![keeb](images/pcb.png)
+[![keeb](images/pcb.png)](pcb/Standard) 
+
+Short thumb variation:
+[![keeb](images/shorter_thumb.png)](pcb/Shorter-Thumb)
