@@ -16,4 +16,4 @@ Here's how the PCB looks like:
 [![main](images/pcb.png)](pcb/Standard) 
 
 ## Mini - 30 keys
-[![mini](images/mini.png)](pcb/mini) 
+[![mini](images/mini.png)](pcb/Mini) 
