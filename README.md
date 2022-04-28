@@ -12,7 +12,8 @@ The ZMK shield for it can be found [here](https://github.com/AlaaSaadAbdo/zmk-co
 
 Here's how the PCB looks like:
 
+## Main - 34 keys
 [![main](images/pcb.png)](pcb/Standard) 
 
-
+## Mini - 30 keys
 [![mini](images/mini.png)](pcb/mini) 
