@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4-0)"
     },
-    "CreationDate": "2022-04-28T13:46:59+02:00"
+    "CreationDate": "2022-04-29T17:53:29+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "duckmini",
-      "GUID": "6475636b-6d69-46e6-992e-6b696361645f",
+      "Name": "battamini",
+      "GUID": "62617474-616d-4696-9e69-2e6b69636164",
       "Revision": "v1.0.0"
     },
     "Size": {
@@ -34,87 +34,87 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "duckmini-F_Cu.gtl",
+      "Path": "battamini-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-B_Cu.gbl",
+      "Path": "battamini-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-F_Adhesive.gta",
+      "Path": "battamini-F_Adhesive.gta",
       "FileFunction": "Glue,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-B_Adhesive.gba",
+      "Path": "battamini-B_Adhesive.gba",
       "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-F_Paste.gtp",
+      "Path": "battamini-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-B_Paste.gbp",
+      "Path": "battamini-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-F_Silkscreen.gto",
+      "Path": "battamini-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-B_Silkscreen.gbo",
+      "Path": "battamini-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-F_Mask.gts",
+      "Path": "battamini-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "duckmini-B_Mask.gbs",
+      "Path": "battamini-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "duckmini-User_Drawings.gbr",
+      "Path": "battamini-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-User_Comments.gbr",
+      "Path": "battamini-User_Comments.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-User_Eco1.gbr",
+      "Path": "battamini-User_Eco1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-User_Eco2.gbr",
+      "Path": "battamini-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-Edge_Cuts.gm1",
+      "Path": "battamini-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-F_Fab.gbr",
+      "Path": "battamini-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "duckmini-B_Fab.gbr",
+      "Path": "battamini-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
