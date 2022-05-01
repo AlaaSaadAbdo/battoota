@@ -11,12 +11,12 @@ I made this board for the following reasons:
 
 The ZMK shield for it can be found 
 [batta](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/batta) 
-[battamini](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/battamini) 
+[battoota](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/battoota) 
 
 Here's how the PCB looks like:
 
-## Main - 34 keys
-[![main](images/pcb.png)](pcb/main) 
+## Batta - 34 keys
+[![main](images/batta.png)](pcb/main) 
 
-## Mini - 30 keys
-[![mini](images/mini_reversable.png)](pcb/battamini_reversable) 
+## Battoota - 30 keys
+[![mini](images/battoota.png)](pcb/battoota) 

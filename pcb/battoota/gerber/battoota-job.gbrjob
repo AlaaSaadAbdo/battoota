@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-05-01T21:27:57+02:00"
+    "CreationDate": "2022-05-02T01:12:47+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "battamini_reversable",
-      "GUID": "62617474-616d-4696-9e69-5f7265766572",
+      "Name": "battoota",
+      "GUID": "62617474-6f6f-4746-912e-6b696361645f",
       "Revision": "v1.0.0"
     },
     "Size": {
@@ -34,87 +34,87 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "battamini_reversable-F_Cu.gtl",
+      "Path": "battoota-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-B_Cu.gbl",
+      "Path": "battoota-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-F_Adhesive.gta",
+      "Path": "battoota-F_Adhesive.gta",
       "FileFunction": "Glue,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-B_Adhesive.gba",
+      "Path": "battoota-B_Adhesive.gba",
       "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-F_Paste.gtp",
+      "Path": "battoota-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-B_Paste.gbp",
+      "Path": "battoota-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-F_Silkscreen.gto",
+      "Path": "battoota-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-B_Silkscreen.gbo",
+      "Path": "battoota-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-F_Mask.gts",
+      "Path": "battoota-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "battamini_reversable-B_Mask.gbs",
+      "Path": "battoota-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "battamini_reversable-User_Drawings.gbr",
+      "Path": "battoota-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-User_Comments.gbr",
+      "Path": "battoota-User_Comments.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-User_Eco1.gbr",
+      "Path": "battoota-User_Eco1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-User_Eco2.gbr",
+      "Path": "battoota-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-Edge_Cuts.gm1",
+      "Path": "battoota-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-F_Fab.gbr",
+      "Path": "battoota-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battamini_reversable-B_Fab.gbr",
+      "Path": "battoota-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
