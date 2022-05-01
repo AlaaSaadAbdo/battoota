@@ -19,4 +19,4 @@ Here's how the PCB looks like:
 [![main](images/pcb.png)](pcb/main) 
 
 ## Mini - 30 keys
-[![mini](images/mini_reversable.png)](pcb/mini_reversable) 
+[![mini](images/mini_reversable.png)](pcb/battamini_reversable) 
