@@ -9,7 +9,7 @@ I made this board for the following reasons:
 - Customized it to fit my hand (my index finger is shorter than my ring finger)
 - JST battery switch support
 
-The ZMK shield for it can be found here:
+The ZMK shield for it can be found here:  
 [batta](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/batta)  
 [battoota](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/battoota) 
 
