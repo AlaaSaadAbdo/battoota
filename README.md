@@ -16,7 +16,10 @@ The ZMK shield for it can be found here:
 Here's how the PCB looks like:
 
 ## Batta - 34 keys
-[![main](images/batta.png)](pcb/main) 
+[![batta](images/batta.png)](pcb/batta) 
 
 ## Battoota - 30 keys
-[![mini](images/battoota.png)](pcb/battoota) 
+[![battoota](images/battoota.png)](pcb/battoota) 
+
+## Battoota Curvy - 30 keys
+[![battoota](images/battoota_curvy.png)](pcb/battoota) 
