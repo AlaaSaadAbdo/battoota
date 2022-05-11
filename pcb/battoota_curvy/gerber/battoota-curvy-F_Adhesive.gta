@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.4)*%
-%TF.CreationDate,2022-05-08T19:11:06+02:00*%
+%TF.CreationDate,2022-05-11T15:33:50+02:00*%
 %TF.ProjectId,battoota-curvy,62617474-6f6f-4746-912d-63757276792e,v1.0.0*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Glue,Top*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.4)) date 2022-05-08 19:11:06*
+G04 Created by KiCad (PCBNEW (6.0.4)) date 2022-05-11 15:33:50*
 %MOMM*%
 %LPD*%
 G01*
