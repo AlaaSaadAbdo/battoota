@@ -20,6 +20,3 @@ Here's how the PCB looks like:
 
 ## Battoota - 30 keys
 [![battoota](images/battoota.png)](pcb/battoota) 
-
-## Battoota Curvy - 30 keys
-[![battoota](images/battoota_curvy.png)](pcb/battoota) 
