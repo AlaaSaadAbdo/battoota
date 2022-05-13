@@ -10,13 +10,13 @@ I made this board for the following reasons:
 - JST battery switch support
 
 The ZMK shield for it can be found here:  
+[battoota](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/battoota)  
 [batta](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/batta)  
-[battoota](https://github.com/AlaaSaadAbdo/zmk-config/tree/master/config/boards/shields/battoota) 
 
 Here's how the PCB looks like:
 
-## Batta - 34 keys
-[![batta](images/batta.png)](pcb/batta) 
-
 ## Battoota - 30 keys
 [![battoota](images/battoota.png)](pcb/battoota) 
+
+## Batta - 34 keys
+[![batta](images/batta.png)](pcb/batta) 
