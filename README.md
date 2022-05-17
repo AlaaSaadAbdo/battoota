@@ -18,5 +18,7 @@ Here's how the PCB looks like:
 ## Battoota - 30 keys
 [![battoota](images/battoota.png)](pcb/battoota) 
 
+![battoota](images/keeb.jpeg) 
+
 ## Batta - 34 keys
 [![batta](images/batta.png)](pcb/batta) 
