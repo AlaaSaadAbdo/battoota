@@ -159,7 +159,7 @@ points:
       width: promicro_x
       height: promicro_y
       footprints:
-      - type: promicro
+      - type: promicro_pretty
         anchor.shift: [1.5, 0]  # Compensate for midpoint being off-center 
         params:
           orientation: up
