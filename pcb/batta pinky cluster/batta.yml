@@ -24,6 +24,11 @@ units:
   visual_y: 1     # Visual representation of keycaps vertical
   sf: 17          # Switch footprint (square)
 
+  # Case
+  # ====
+  choc_plate_thickness: 1.2
+
+
 points:
   key:  # Zero out points so they don't have a size unless explicitly set
     height: 0
@@ -185,8 +190,23 @@ outlines.exports:
       - ref: outline_top_right
       - ref: outline_bottom_right
       - ref: outline_bottom_left
-  panel:
+  _body:
     - name: _outer
+      fillet: 35
+    - operation: add
+      type: rectangle
+      size: [50, 40]
+      anchor:
+        ref: [outline_bottom_right]
+        shift: [-50, 0]
+    - operation: add
+      type: rectangle
+      size: [50, 40]
+      anchor:
+        ref: [outline_top_left]
+        shift: [0, -40]
+  panel:
+    - name: _body
       fillet: 3
   _mcu:
     - type: rectangle
@@ -203,8 +223,25 @@ outlines.exports:
       tags: [keys]
       size: [capx, capy]
       bound: false
+  _switch_cutouts:
+    - type: keys
+      side: left
+      tags: [keys]
+      size: 14 # Plate cutouts are 14mm * 14mm for both MX and Choc
+      bound: false
+  switch_plate:
+    [ panel, -_switch_cutouts]
 pcbs:
   batta_choc:
     outlines:
       main:
         outline: panel
+cases:
+  switchplate:
+    - type: outline
+      name: switch_plate
+      extrude: choc_plate_thickness
+  bottom:
+    - type: outline
+      name: panel
+      extrude: choc_plate_thickness
