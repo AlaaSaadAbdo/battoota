@@ -110,7 +110,7 @@ points:
         spread: kx
         rotate: reachy_splay
         stagger: -0.09ky
-        origin: [0, -5]
+        origin: [0, -6]
         key:
           name: thumb_reachy
           rotate: 180
