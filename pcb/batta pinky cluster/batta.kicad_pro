@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.4,
-          "height": 0.8,
-          "width": 0.8
+          "drill": 1.0922,
+          "height": 2.25,
+          "width": 1.5
         },
         "silk_line_width": 0.12,
         "silk_text_italic": false,
@@ -186,7 +186,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "batta.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
