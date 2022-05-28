@@ -23,6 +23,8 @@ units:
   visual_x: 1     # Visual representation of keycaps horizontal
   visual_y: 1     # Visual representation of keycaps vertical
   sf: 17          # Switch footprint (square)
+  slider_x: 2.85
+  slider_y: 6
 
   # Case
   # ====
