@@ -153,7 +153,7 @@ points:
     anchor:
       ref: outline_top_right
       rotate: 270
-      shift: [-2, -50]
+      shift: [-2.5, -50]
     key: 
       name: slider_l
       width:  slider_x
@@ -169,7 +169,7 @@ points:
     anchor:
       ref: outline_top_right
       rotate: 270
-      shift: [-2, -50]
+      shift: [-2.5, -50]
     key: 
       name: slider_r
       width:  slider_x
