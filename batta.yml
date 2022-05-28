@@ -26,6 +26,7 @@ units:
   slider_x: 2.85
   slider_y: 6
 
+
   # Case
   # ====
   choc_plate_thickness: 1.2
@@ -158,8 +159,8 @@ points:
       shift: [-2.5, -50]
     key: 
       name: slider_l
-      width:  slider_x
-      height: slider_y
+      width:  slider_y
+      height: slider_x
       footprints:
       - type: slider
         params:
@@ -174,8 +175,8 @@ points:
       shift: [-2.5, -50]
     key: 
       name: slider_r
-      width:  slider_x
-      height: slider_y
+      width:  slider_y
+      height: slider_x
       footprints:
       - type: slider
         params:
@@ -193,7 +194,7 @@ points:
       width: promicro_x
       height: promicro_y
       footprints:
-      - type: promicro_pretty
+      - type: promicro
         anchor.shift: [1.5, 0]  # Compensate for midpoint being off-center 
         params:
           orientation: up
@@ -242,6 +243,13 @@ outlines.exports:
   panel:
     - name: _body
       fillet: 3
+  _slider:
+    - type: rectangle
+      size: [slider_x, slider_y]
+      anchor:
+        rotate: 270
+        ref: slider_l
+        shift: [0, 0]
   _mcu:
     - type: rectangle
       size: [promicro_x, promicro_y]
@@ -251,6 +259,7 @@ outlines.exports:
   key_demo:
     - panel
     - ^_mcu
+    - ^_slider
     - operation: stack
       type: keys
       side: left
@@ -264,7 +273,7 @@ outlines.exports:
       size: 14 # Plate cutouts are 14mm * 14mm for both MX and Choc
       bound: false
   switch_plate:
-    [ panel, -_switch_cutouts]
+    [panel, -_switch_cutouts]
 pcbs:
   batta_choc:
     outlines:
