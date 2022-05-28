@@ -146,6 +146,38 @@ points:
 
   # Components
   # ==========
+  zones.slider_l:
+    anchor:
+      ref: outline_top_right
+      rotate: 270
+      shift: [-2, -50]
+    key: 
+      name: slider_l
+      width:  slider_x
+      height: slider_y
+      footprints:
+      - type: slider
+        params:
+          side: F
+        nets:
+          from: Braw
+          to: RAW
+  zones.slider_r:
+    anchor:
+      ref: outline_top_right
+      rotate: 270
+      shift: [-2, -50]
+    key: 
+      name: slider_r
+      width:  slider_x
+      height: slider_y
+      footprints:
+      - type: slider
+        params:
+          side: B
+        nets:
+          from: Braw
+          to: RAW
   zones.mcu:
     anchor:
       ref: outline_top_right
