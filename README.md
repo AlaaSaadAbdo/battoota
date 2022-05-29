@@ -12,7 +12,7 @@ I made this board for the following reasons:
 Here's how the PCB looks like:
 
 ## Battoota - 30 keys
-[](pcb/battoota) 
+[!](pcb/battoota) 
 
 ## Batta - 34 keys
-[](pcb/batta) 
+[!](pcb/batta) 
