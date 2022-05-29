@@ -1,1 +1,0 @@
-![keeb](../../images/pcb.png)
