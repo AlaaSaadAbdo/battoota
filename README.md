@@ -4,7 +4,7 @@ I made this board for the following reasons:
 - Wireless
 - Diodeless
 - Tenting Puck support
-- Customized it to fit my hand (my index finger is shorter than my ring finger)
+- Customized it to fit my hand
 - JST Connector for battery
 
 Here's how the PCB looks like:
