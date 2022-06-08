@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-05-26T06:06:50+02:00"
+    "CreationDate": "2022-06-08T17:57:10+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "batta",
-      "GUID": "62617474-612e-46b6-9963-61645f706362",
+      "Name": "basbousa",
+      "GUID": "62617362-6f75-4736-912e-6b696361645f",
       "Revision": "v1.0.0"
     },
     "Size": {
@@ -34,87 +34,87 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "batta-F_Cu.gtl",
+      "Path": "basbousa-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-B_Cu.gbl",
+      "Path": "basbousa-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-F_Adhesive.gta",
+      "Path": "basbousa-F_Adhesive.gta",
       "FileFunction": "Glue,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-B_Adhesive.gba",
+      "Path": "basbousa-B_Adhesive.gba",
       "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-F_Paste.gtp",
+      "Path": "basbousa-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-B_Paste.gbp",
+      "Path": "basbousa-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-F_Silkscreen.gto",
+      "Path": "basbousa-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-B_Silkscreen.gbo",
+      "Path": "basbousa-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-F_Mask.gts",
+      "Path": "basbousa-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "batta-B_Mask.gbs",
+      "Path": "basbousa-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "batta-User_Drawings.gbr",
+      "Path": "basbousa-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-User_Comments.gbr",
+      "Path": "basbousa-User_Comments.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-User_Eco1.gbr",
+      "Path": "basbousa-User_Eco1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-User_Eco2.gbr",
+      "Path": "basbousa-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-Edge_Cuts.gm1",
+      "Path": "basbousa-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-F_Fab.gbr",
+      "Path": "basbousa-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "batta-B_Fab.gbr",
+      "Path": "basbousa-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
