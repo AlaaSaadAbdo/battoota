@@ -12,5 +12,5 @@ Here's how the PCB looks like:
 ## Battoota - 30 keys
 ![battoota](images/battoota.svg)
 
-## Batta - 34 keys
-![batta](images/batta.svg)
+## Basbousa - 34 keys
+![basbousa](images/basbousa.svg)
