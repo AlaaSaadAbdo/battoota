@@ -86,7 +86,7 @@ points:
       origin: [0, ring_adj]
     columns.index:
       spread: kx
-      stagger: -0.6ky
+      stagger: -0.75ky
       rotate: -middle_splay
       origin: [0, middle_adj]
     columns.inner:
