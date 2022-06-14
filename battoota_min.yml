@@ -1,0 +1,274 @@
+units:
+  # Parameters
+  # ==========
+  capx: 15.5      # Key cap size horizontal
+  capy: 14.5      # Key cap size vertical
+  kx: 17 + 0.5    # Key spacing horizontal
+  ky: 15 + 0.5    # Key spacing vertical
+  pinky_splay: 7  # Degrees of splay between pinky and ring columns
+  pinky_adj: -3   # Adjustment to compensate for splay spacing
+  ring_splay: 5
+  ring_adj: -8
+  middle_splay: 5
+  middle_adj: -5
+  tucky_splay: -5
+  reachy_splay: -10
+  reachy_adj: 3
+  thumb_offsetx: 0.7kx
+
+  # Constants
+  # =========
+  promicro_x: 33
+  promicro_y: 18
+  visual_x: 1     # Visual representation of keycaps horizontal
+  visual_y: 1     # Visual representation of keycaps vertical
+  sf: 15          # Switch footprint (square)
+
+points:
+  key:  # Zero out points so they don't have a size unless explicitly set
+    height: 0
+    width: 0
+
+  # Keys/Switches
+  # =============
+  zones.matrix:
+    anchor:
+      shift: [150, -180]
+    rotate: pinky_splay + ring_splay + middle_splay
+    key: &key
+      width: capx
+      height: capy
+      tags:
+        keys: true
+      footprints:
+        - type: choc
+          anchor:
+          nets:
+            from: GND
+            to: =name
+          params:
+            reverse: true
+            keycaps: true
+    rows:
+      bottom.padding: ky
+      home.padding: ky
+      top.padding: ky
+    columns.pinky:
+      spread: kx
+      rows:
+        bottom.skip: true
+    columns.ring:
+      spread: kx
+      stagger: 0.9ky
+      rotate: -pinky_splay
+      origin: [0, pinky_adj]
+    columns.middle:
+      spread: kx
+      stagger: 0.25ky
+      rotate: -ring_splay
+      origin: [0, ring_adj]
+    columns.index:
+      spread: kx
+      stagger: -0.25ky
+      rotate: -middle_splay
+      origin: [0, middle_adj]
+    columns.inner:
+      spread: capx + 1
+      stagger: -0.5ky
+      rows:
+        bottom.skip: true
+  zones.thumb:
+    anchor:
+      ref: matrix_index_bottom
+      shift: [thumb_offsetx, -25]
+    key: *key
+    columns:
+      tucky:
+        rotate: tucky_splay
+        key:
+          name: thumb_tucky
+      reachy:
+        spread: capx + 1
+        rotate: reachy_splay
+        stagger: -0.09ky
+        origin: [0, -5]
+        key:
+          name: thumb_reachy
+          rotate: 180
+
+  # Outline Extents
+  # ===============
+  zones.outline_top_left:
+    key.name: outline_top_left
+    anchor:
+    - ref: matrix_middle_top
+      shift: [0.6sf, .6sf]
+      affect: y
+    - ref: matrix_pinky_top
+      affect: x
+      shift: [-0.6sf, 0.6sf]
+  zones.outline_top_right:
+    key.name: outline_top_right
+    anchor:
+    - ref: outline_top_left
+    - ref: thumb_reachy
+      affect: x
+      shift: [0.4sf, -4.5sf]
+  zones.outline_bottom_left:
+    key.name: outline_bottom_left
+    anchor:
+    - ref: outline_top_left
+    - ref: thumb_reachy
+      affect: y
+      shift: [-1sf, 0.5sf]
+  zones.outline_bottom_right:
+    key.name: outline_bottom_right
+    anchor:
+    - ref: outline_top_right
+    - ref: outline_bottom_left
+      affect: y
+
+  # Components
+  # ==========
+  zones.mcu:
+    anchor:
+      ref: outline_bottom_left
+      shift: [0.5promicro_x + 1, 0.5promicro_y + 3]
+    key:
+      name: mcu
+      width: promicro_x
+      height: promicro_y
+      footprints:
+      - type: promicro
+        anchor.shift: [1.5, 0]  # Compensate for midpoint being off-center 
+        params:
+          orientation: up
+        nets:
+          P20: matrix_pinky_top
+          P14: matrix_ring_top
+          P19: matrix_middle_top
+          P7: matrix_index_top
+          P4: matrix_inner_top
+          P21: matrix_pinky_home
+          P16: matrix_ring_home
+          P18: matrix_middle_home
+          P8: matrix_index_home
+          P5: matrix_inner_home
+          P10: matrix_ring_bottom
+          P15: matrix_middle_bottom
+          P9: matrix_index_bottom
+          P6: thumb_tucky
+          P3: thumb_reachy
+
+  zones.power_jumper:
+    anchor:
+      - ref: mcu
+        shift: [0.5promicro_x + 3.5, -0.5promicro_y + 3.25]
+    key:
+      name: power_jumper
+      height: 4.4
+      width: 1.8
+      footprints:
+        - type: jumper
+          anchor.rotate: 90
+          nets:
+            from: RAW
+            to: RAW
+  zones.battery_pads:
+    anchor:
+      - ref: mcu
+        shift: [0.5promicro_x + 3.5, 0.5promicro_y - 1.25]
+    key:
+      name: battery_pads
+      height: 2.1
+      width: 3.8
+      footprints:
+        - type: jumper
+          nets:
+            from: GND
+            to: RAW
+  zones.reset:
+    anchor:
+      - ref: mcu
+        shift: [-0.5promicro_x + 0.5, 0.5promicro_y + 3]    
+    key:
+      name: reset
+      height: 3.8
+      width: 2.1
+      footprints:
+        - type: jumper
+          anchor.rotate: -90
+          nets:
+            from: GND
+            to: RST
+  zones.mounting_hole_top:
+    anchor:
+      - ref: matrix_pinky_top
+        affect: y
+        shift: [0, ky / 2 + 4.5]
+      - ref: matrix_ring_top
+        affect: x
+        shift: [-kx / 2 - 2.5, 0]
+    key:
+      name: mounting_hole_top
+      height: 1
+      width: 1
+      footprints:
+        - type: via
+          nets.net: MOUNT
+  zones.mounting_hole_bottom:
+    anchor:
+      - ref: matrix_inner_home
+        affect: y
+        shift: [0, -ky / 2 - 2.5]
+      - ref: matrix_index_bottom
+        affect: x
+        shift: [kx / 2 + 2.5, 0]
+    key:
+      name: mounting_hole_bottom
+      height: 1
+      width: 1
+      footprints:
+        - type: via
+          nets.net: MOUNT          
+
+outlines.exports:
+  _outer:
+    - type: polygon
+      points:
+      - ref: outline_top_left
+      - ref: outline_top_right
+      - ref: outline_bottom_right
+      - ref: outline_bottom_left
+  _battery_cutout:
+    - type: rectangle
+      anchor: 
+        - ref: mcu
+          shift: [0.5promicro_x - sx, -0.5promicro_y]
+        - shift: [0, 3.5]
+      size: [5.5, 3.5]
+  panel:
+    - name: _outer
+      fillet: 3
+    - operation: subtract
+      name: _battery_cutout
+  _mcu:
+    - type: rectangle
+      size: [promicro_x, promicro_y]
+      anchor:
+        ref: mcu
+        shift: [-0.5promicro_x, -0.5promicro_y]
+  key_demo:
+    - panel
+    - ^_mcu
+    - operation: stack
+      type: keys
+      side: left
+      tags: [keys]
+      size: [capx, capy]
+      bound: false
+pcbs:
+  battoota_choc_min:
+    outlines:
+      main:
+        outline: panel
