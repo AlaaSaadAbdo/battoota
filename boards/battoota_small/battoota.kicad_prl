@@ -1,10 +1,10 @@
 {
   "board": {
-    "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer": 31,
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -33,8 +33,6 @@
       3,
       4,
       5,
-      6,
-      7,
       8,
       9,
       10,
@@ -68,7 +66,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "battoota_min.kicad_prl",
+    "filename": "battoota.kicad_prl",
     "version": 3
   },
   "project": {
