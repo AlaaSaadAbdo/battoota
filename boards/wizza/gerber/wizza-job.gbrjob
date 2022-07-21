@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-07-08T06:12:20+02:00"
+    "CreationDate": "2022-07-21T23:48:58+02:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "battoota",
-      "GUID": "62617474-6f6f-4746-912e-6b696361645f",
+      "Name": "wizza",
+      "GUID": "77697a7a-612e-46b6-9963-61645f706362",
       "Revision": "v1.0.0"
     },
     "Size": {
@@ -34,87 +34,87 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "battoota-F_Cu.gtl",
+      "Path": "wizza-F_Cu.gtl",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-B_Cu.gbl",
+      "Path": "wizza-B_Cu.gbl",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-F_Adhesive.gta",
+      "Path": "wizza-F_Adhesive.gta",
       "FileFunction": "Glue,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-B_Adhesive.gba",
+      "Path": "wizza-B_Adhesive.gba",
       "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-F_Paste.gtp",
+      "Path": "wizza-F_Paste.gtp",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-B_Paste.gbp",
+      "Path": "wizza-B_Paste.gbp",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-F_Silkscreen.gto",
+      "Path": "wizza-F_Silkscreen.gto",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-B_Silkscreen.gbo",
+      "Path": "wizza-B_Silkscreen.gbo",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-F_Mask.gts",
+      "Path": "wizza-F_Mask.gts",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "battoota-B_Mask.gbs",
+      "Path": "wizza-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "battoota-User_Drawings.gbr",
+      "Path": "wizza-User_Drawings.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-User_Comments.gbr",
+      "Path": "wizza-User_Comments.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-User_Eco1.gbr",
+      "Path": "wizza-User_Eco1.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-User_Eco2.gbr",
+      "Path": "wizza-User_Eco2.gbr",
       "FileFunction": "Other,User",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-Edge_Cuts.gm1",
+      "Path": "wizza-Edge_Cuts.gm1",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-F_Fab.gbr",
+      "Path": "wizza-F_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battoota-B_Fab.gbr",
+      "Path": "wizza-B_Fab.gbr",
       "FileFunction": "AssemblyDrawing,Bot",
       "FilePolarity": "Positive"
     }
