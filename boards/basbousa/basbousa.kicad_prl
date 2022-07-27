@@ -4,7 +4,7 @@
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -66,7 +66,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "batta.kicad_prl",
+    "filename": "basbousa.kicad_prl",
     "version": 3
   },
   "project": {
