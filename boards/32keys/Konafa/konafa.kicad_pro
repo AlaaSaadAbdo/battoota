@@ -332,7 +332,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "battoota.kicad_pro",
+    "filename": "konafa.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -391,7 +391,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "battoota.step",
+      "step": "konafa.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
