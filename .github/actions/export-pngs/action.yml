@@ -14,7 +14,7 @@ inputs:
   #   default: ''
 runs:
   using: 'docker'
-  image: 'docker://yaqwsx/kikit:v1.0.5'
+  image: 'docker://yaqwsx/kikit:nightly'
   entrypoint: '/bin/sh'
   args:
     - '-c'
