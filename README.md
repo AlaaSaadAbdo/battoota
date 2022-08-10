@@ -17,3 +17,7 @@ Here's how the PCB looks like:
 
 ## Basbousa - 34 keys
 ![basbousa](images/basbousa.svg)
+
+| Front | Back |
+| :---: | :---: |
+| ![front](/images/battoota/front.png) | ![back](/images/battoota/back.png) |
