@@ -47,19 +47,19 @@ jobs:
       - name: Konafa_min
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: ./boards/32keys/konafa_min/konafa.kicad_pcb
+          pcb_file: ./boards/32keys/konafa_min/konafa_min.kicad_pcb
           pngs_dir: ./images/konafa_min/
       # 34 KEYS
       - name: Basbousa
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: ./boards/34keys/basbousa/konafa.kicad_pcb
+          pcb_file: ./boards/34keys/basbousa/basbousa.kicad_pcb
           pngs_dir: ./images/basbousa/
       # 36 KEYS
       - name: Basbousa36
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: ./boards/34keys/basbousa36/konafa.kicad_pcb
+          pcb_file: ./boards/34keys/basbousa36/basbousa.kicad_pcb
           pngs_dir: ./images/basbousa36/
 
       # UPDATE GALLERY
