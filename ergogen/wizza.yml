@@ -1,0 +1,189 @@
+units:
+  # Parameters
+  # ==========
+  capx: 17        # Key cap size horizontal
+  capy: 16        # Key cap size vertical
+  kx: cx + 0.5    # Key spacing horizontal
+  ky: cy + 0.5    # Key spacing vertical
+  pinky_splay: 7 # Degrees of splay between pinky and ring columns
+  pinky_adj: -6   # Adjustment to compensate for splay spacing
+  ring_splay: 5
+  ring_adj: -8
+  middle_splay: 5
+  middle_adj: 0 
+  thumb_offsetx: 0.25kx
+
+  # Constants
+  # =========
+  promicro_x: 33
+  promicro_y: 18
+  visual_x: 1     # Visual representation of keycaps horizontal
+  visual_y: 1     # Visual representation of keycaps vertical
+  sf: 15          # Switch footprint (square)
+
+points:
+  key:  # Zero out points so they don't have a size unless explicitly set
+    height: 0
+    width: 0
+
+  # Keys/Switches
+  # =============
+  zones.matrix:
+    anchor:
+      shift: [150, -180]
+    rotate: pinky_splay + ring_splay + middle_splay
+    key: &key
+      width: capx
+      height: capy
+      tags:
+        keys: true
+      footprints:
+        - type: choc
+          anchor:
+            rotate: 180
+          nets:
+            from: GND
+            to: =name
+          params:
+            reverse: true
+            keycaps: true
+    rows:
+      bottom.padding: ky
+      home.padding: ky
+      top.padding: ky
+    columns.pinky:
+      spread: kx
+      rows:
+        bottom.skip: true
+    columns.ring:
+      spread: kx
+      stagger: 2/3ky
+      rotate: -pinky_splay
+      origin: [0, pinky_adj]
+    columns.middle:
+      spread: kx
+      stagger: 0.25ky
+      rotate: -ring_splay
+      origin: [0, ring_adj]
+    columns.index:
+      spread: kx
+      stagger: -0.25ky
+      rotate: -middle_splay
+      origin: [0, middle_adj]
+    columns.inner:
+      spread: kx
+      stagger: -0.5ky
+      rows:
+        bottom.skip: true
+  zones.thumb:
+    anchor:
+      ref: matrix_index_bottom
+      shift: [thumb_offsetx, -22]
+    key: *key
+    columns:
+      tucky:
+        key:
+          name: thumb_tucky
+          rotate: 180
+      reachy:
+        spread: kx
+        stagger: -0.25ky
+        key:
+          name: thumb_reachy
+          rotate: 180
+
+  # Outline Extents
+  # ===============
+  zones.outline_top_left:
+    key.name: outline_top_left
+    anchor:
+    - ref: matrix_middle_top
+      shift: [0.5sf, 0.5sf]
+      affect: y
+    - ref: matrix_pinky_top
+      affect: x
+      shift: [-0.5sf, 0.5sf]
+  zones.outline_top_right:
+    key.name: outline_top_right
+    anchor:
+    - ref: outline_top_left
+    - ref: thumb_reachy
+      affect: x
+      shift: [-0.5sf, 0.5sf]
+  zones.outline_bottom_left:
+    key.name: outline_bottom_left
+    anchor:
+    - ref: outline_top_left
+    - ref: thumb_reachy
+      affect: y
+      shift: [-0.5sf, 0.6sf]
+  zones.outline_bottom_right:
+    key.name: outline_bottom_right
+    anchor:
+    - ref: outline_top_right
+    - ref: outline_bottom_left
+      affect: y
+
+  # Components
+  # ==========
+  zones.mcu:
+    anchor:
+      ref: outline_bottom_left
+      shift: [0.5promicro_x + 1, 0.2promicro_y + 5]
+    key:
+      name: mcu
+      width: promicro_x
+      height: promicro_y
+      footprints:
+      - type: promicro
+        anchor.shift: [1.5, 0]  # Compensate for midpoint being off-center 
+        params:
+          orientation: up
+        nets:
+          P20: matrix_pinky_top
+          P14: matrix_ring_top
+          P19: matrix_middle_top
+          P7: matrix_index_top
+          P4: matrix_inner_top
+          P21: matrix_pinky_home
+          P16: matrix_ring_home
+          P18: matrix_middle_home
+          P8: matrix_index_home
+          P5: matrix_inner_home
+          P10: matrix_ring_bottom
+          P15: matrix_middle_bottom
+          P9: matrix_index_bottom
+          P6: thumb_tucky
+          P3: thumb_reachy
+
+outlines.exports:
+  _outer:
+    - type: polygon
+      points:
+      - ref: outline_top_left
+      - ref: outline_top_right
+      - ref: outline_bottom_right
+      - ref: outline_bottom_left
+  panel:
+    - name: _outer
+      fillet: 3
+  _mcu:
+    - type: rectangle
+      size: [promicro_x, promicro_y]
+      anchor:
+        ref: mcu
+        shift: [-0.5sx, -0.5sy]
+  key_demo:
+    - panel
+    - ^_mcu
+    - operation: stack
+      type: keys
+      side: left
+      tags: [keys]
+      size: [capx, capy]
+      bound: false
+pcbs:
+  wizza:
+    outlines:
+      main:
+        outline: panel
