@@ -59,7 +59,7 @@ jobs:
       - name: Basbousa36
         uses: ./.github/actions/export-pngs
         with:
-          pcb_file: ./boards/34keys/basbousa36/basbousa.kicad_pcb
+          pcb_file: ./boards/36keys/basbousa36/basbousa.kicad_pcb
           pngs_dir: ./images/basbousa36/
 
       # UPDATE GALLERY
