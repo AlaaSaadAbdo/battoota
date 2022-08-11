@@ -1772,10 +1772,10 @@
     (fill yes (thermal_gap 0.508) (thermal_bridge_width 0.508) (island_removal_mode 1) (island_area_min 0))
     (polygon
       (pts
-        (xy 322.199 50.038)
-        (xy 313.309 152.273)
-        (xy 175.387 153.289)
-        (xy 179.197 49.784)
+        (xy 302.641 55.753)
+        (xy 300.863 141.859)
+        (xy 188.087 140.589)
+        (xy 188.849 55.499)
       )
     )
     (filled_polygon
