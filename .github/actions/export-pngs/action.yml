@@ -14,7 +14,7 @@ inputs:
   #   default: ''
 runs:
   using: 'docker'
-  image: 'docker://yaqwsx/kikit:nightly'
+  image: 'docker://alaasaadabdo/drawpcb:latest'
   entrypoint: '/bin/sh'
   args:
     - '-c'
