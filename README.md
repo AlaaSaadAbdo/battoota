@@ -17,6 +17,10 @@ Here's how the PCB looks like:
 | Front | Back |
 | :---: | :---: |
 | ![front](/images/battoota/front.png) | ![back](/images/battoota/back.png) |
+# Battoota-3thumb
+| Front | Back |
+| :---: | :---: |
+| ![front](/images/battoota-3thumb/front.png) | ![back](/images/battoota-3thumb/back.png) |
 # Konafa
 | Front | Back |
 | :---: | :---: |

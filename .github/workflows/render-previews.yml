@@ -49,6 +49,11 @@ jobs:
         with:
           pcb_file: ./boards/32keys/konafa_min/konafa_min.kicad_pcb
           pngs_dir: ./images/konafa_min/
+      - name: Battoota-3thumb
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: ./boards/32keys/battoota-3thumb/battoota.kicad_pcb
+          pngs_dir: ./images/battoota-3thumb/
       # 34 KEYS
       - name: Basbousa
         uses: ./.github/actions/export-pngs
