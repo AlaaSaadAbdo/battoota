@@ -5,19 +5,23 @@ I made this board for the following reasons:
 - Diodeless
 - Tenting Puck support
 - Customized it to fit my hand
-- JST Connector for battery
+- JST Connector for 
 
 Here's how the PCB looks like:
 
-## Battoota - 30 keys
-![battoota](images/battoota.svg)
-
-## Konafa - 32 keys
-![konafa](images/konafa.svg)
-
-## Basbousa - 34 keys
-![basbousa](images/basbousa.svg)
-
+# Wizza
+| Front | Back |
+| :---: | :---: |
+| ![front](/images/wizza/front.png) | ![back](/images/wizza/back.png) |
+# Battoota
 | Front | Back |
 | :---: | :---: |
 | ![front](/images/battoota/front.png) | ![back](/images/battoota/back.png) |
+# Konafa
+| Front | Back |
+| :---: | :---: |
+| ![front](/images/konafa/front.png) | ![back](/images/konafa/back.png) |
+# Basbousa
+| Front | Back |
+| :---: | :---: |
+| ![front](/images/basbousa/front.png) | ![back](/images/basbousa/back.png) |
