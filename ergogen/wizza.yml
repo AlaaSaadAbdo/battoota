@@ -54,10 +54,10 @@ points:
     columns.pinky:
       spread: kx
       rows:
-        bottom.skip: true
+        top.skip: true
     columns.ring:
       spread: kx
-      stagger: 2/3ky
+      stagger: -0.1ky
       rotate: -pinky_splay
       origin: [0, pinky_adj]
     columns.middle:
@@ -78,7 +78,7 @@ points:
   zones.thumb:
     anchor:
       ref: matrix_index_bottom
-      shift: [thumb_offsetx, -22]
+      shift: [thumb_offsetx, -24]
     key: *key
     columns:
       tucky:
