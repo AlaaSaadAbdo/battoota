@@ -73,10 +73,10 @@ points:
       spread: kx
       stagger: 0.3ky
       rows:
-        top.skip: true
+        bottom.skip: true
     columns.ring:
       spread: kx
-      stagger: -0.1ky
+      stagger: .9ky
       rotate: -pinky_splay
       origin: [0, pinky_adj]
     columns.middle:
