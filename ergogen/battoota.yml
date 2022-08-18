@@ -195,21 +195,21 @@ points:
         params:
           orientation: up
         nets:
-          P20: matrix_pinky_top
-          P14: matrix_ring_top
-          P19: matrix_middle_top
-          P7: matrix_index_top
-          P4: matrix_inner_top
-          P21: matrix_pinky_home
-          P16: matrix_ring_home
-          P18: matrix_middle_home
-          P8: matrix_index_home
-          P5: matrix_inner_home
-          P10: matrix_ring_bottom
-          P15: matrix_middle_bottom
-          P9: matrix_index_bottom
-          P6: thumb_tucky
-          P3: thumb_reachy
+          P2: matrix_pinky_top
+          P4: matrix_ring_top
+          P7: matrix_middle_top
+          P20: matrix_index_top
+          P15: matrix_inner_top
+          P3: matrix_pinky_home
+          P5: matrix_ring_home
+          P8: matrix_middle_home
+          P19: matrix_index_home
+          P14: matrix_inner_home
+          P6: matrix_ring_bottom
+          P9: matrix_middle_bottom
+          P18: matrix_index_bottom
+          P16: thumb_tucky
+          P10: thumb_reachy
 
 outlines.exports:
   _outer:
