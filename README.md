@@ -36,6 +36,3 @@ Here's how the PCB looks like:
 | Front | Back |
 | :---: | :---: |
 | ![front](/images/basbousa/front.png) | ![back](/images/basbousa/back.png) |
-
-# License
-This work is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
