@@ -38,6 +38,11 @@ jobs:
         with:
           pcb_file: ./boards/30keys/wizza-chocV2/wizza.kicad_pcb
           pngs_dir: ./images/wizza-chocV2/
+      - name: Wizza-chocV2
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: ./boards/30keys/wizza-mx/wizza.kicad_pcb
+          pngs_dir: ./images/wizza-mx/
       # 32 KEYS
       - name: Konafa
         uses: ./.github/actions/export-pngs
