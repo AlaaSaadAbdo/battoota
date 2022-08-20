@@ -15,8 +15,8 @@ units:
 
   # Constants
   # =========
-  xiao_x: 17.5
-  xiao_y: 20
+  xiao_x: 33
+  xiao_y: 18
   visual_x: 1     # Visual representation of keycaps horizontal
   visual_y: 1     # Visual representation of keycaps vertical
   sf: 15          # Switch footprint (square)
@@ -41,6 +41,15 @@ points:
           to: =column_net
         params:
           keycaps: true
+          hotswap: true
+      - type: choc
+        nets:
+          from: GND
+          to: =name
+        params:
+          reverse: true
+          keycaps: true
+          hotswap: true
 
     rows:
       bottom.padding: ky
@@ -51,11 +60,11 @@ points:
       rows:
         bottom.skip: true
         home:
-          bind: [0.5ky, 0.5kx, 1, 0]
+          bind: [0.5ky, 2.5kx, 3.5, 2]
           row_net: P2
           column_net: P6
         top:
-          bind: [0, 0.5kx, 0.5ky, 0]
+          bind: [2, 0.5kx, 0.5ky, 2]
           row_net: P0
           column_net: P6
         home.mirror:
@@ -71,7 +80,7 @@ points:
       origin: [0, pinky_adj]
       rows:
         bottom:
-          bind: [0.5ky, 0, 0, 0]
+          bind: [0.5ky, 25, 2, 0]
           row_net: P4
           column_net: P6
         home:
@@ -79,7 +88,7 @@ points:
           row_net: P3
           column_net: P6
         top:
-          bind: [0, 0.5kx, 0.5ky, 0]
+          bind: [2, 0.5kx, 0.5ky, 2]
           row_net: P1
           column_net: P6
         bottom.mirror:
@@ -98,7 +107,7 @@ points:
       origin: [0, ring_adj]
       rows:
         bottom:
-          bind: [0.5ky, 0.5kx, 0, .5kx]
+          bind: [0.5ky, 0.5kx, 6, .5kx]
           row_net: P5
           column_net: P6
         home:
@@ -106,7 +115,7 @@ points:
           row_net: P2
           column_net: P7
         top:
-          bind: [0, 0, 0.5ky, 0]
+          bind: [1, 2, 0.5ky, 2]
           row_net: P0
           column_net: P7
         bottom.mirror:
@@ -125,14 +134,14 @@ points:
       origin: [0, middle_adj]
       rows:
         bottom:
-          bind: [0.5ky, 0, 0, 0]
+          bind: [0.5ky, 2, 2, 2]
           row_net: P4
           column_net: P7
         home:
           row_net: P3
           column_net: P7
         top:
-          bind: [0, 0, 0.5ky, 0.5kx]
+          bind: [2, 2, 0.5ky, 0.5kx]
           row_net: P1
           column_net: P7
         bottom.mirror:
@@ -178,7 +187,7 @@ points:
       tucky:
         key:
           name: thumb_tucky
-          bind: [ky, ky, 0, 0]
+          bind: [ky, ky, 0, 2]
           row_net: P5
           column_net: P7
         key.mirror:
@@ -189,7 +198,7 @@ points:
         stagger: -0.25ky
         key:
           name: thumb_reachy
-          bind: [1.5ky, 0, 0, 0]
+          bind: [1.5ky, 2, 0, 0]
           row_net: P4
           column_net: P8
         key.mirror:
@@ -222,7 +231,8 @@ points:
   zones.mcu:
     anchor:
       ref: [matrix_inner_top, mirror_matrix_inner_top]
-      shift: [0, -0.7ky - 0.5xiao_y]
+      shift: [0, -0.2ky - 0.5xiao_y]
+      rotate: 270
     key:
       name: mcu
       width: xiao_x
