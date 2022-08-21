@@ -43,6 +43,11 @@ jobs:
         with:
           pcb_file: ./boards/30keys/wizza-mx/wizza.kicad_pcb
           pngs_dir: ./images/wizza-mx/
+      - name: Asfoora
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: ./boards/30keys/Asfoora/Asfoora.kicad_pcb
+          pngs_dir: ./images/Asfoora/
       # 32 KEYS
       - name: Konafa
         uses: ./.github/actions/export-pngs
