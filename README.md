@@ -13,6 +13,10 @@ Here's how the PCB looks like:
 | Front | Back |
 | :---: | :---: |
 | ![front](/images/wizza/front.png) | ![back](/images/wizza/back.png) |
+### Wizza Choc V1 MX spacing
+| Front | Back |
+| :---: | :---: |
+| ![front](/images/wizza-chocV1-MX_spacing/front.png) | ![back](/images/wizza-chocV1-MX_spacing/back.png) |
 ### Wizza Choc V2
 | Front | Back |
 | :---: | :---: |

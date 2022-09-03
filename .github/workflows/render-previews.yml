@@ -38,7 +38,12 @@ jobs:
         with:
           pcb_file: ./boards/30keys/wizza-chocV2/wizza.kicad_pcb
           pngs_dir: ./images/wizza-chocV2/
-      - name: Wizza-chocV2
+      - name: Wizza-chocv1-mx-spacing
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: ./boards/30keys/Wizza-chocV1-MX_Spacing/wizza.kicad_pcb
+          pngs_dir: ./images/wizza-chocV1-MX_spacing/
+      - name: Wizza-mx
         uses: ./.github/actions/export-pngs
         with:
           pcb_file: ./boards/30keys/wizza-mx/wizza.kicad_pcb
