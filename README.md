@@ -1,4 +1,6 @@
-I made this board for the following reasons:
+# Disclaimer: Please keep in mind that there are prototypes rhere. Use the files at your own risk.
+
+All the split boards here are/have:
 
 - 34/32/30 keys
 - Wireless
@@ -6,7 +8,8 @@ I made this board for the following reasons:
 - Tenting Puck support
 - JST Connector for battery
 
-Here's how the PCB looks like:
+
+Here's how the PCBs look like:
 
 # Split
 
