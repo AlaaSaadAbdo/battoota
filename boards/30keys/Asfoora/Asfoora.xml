@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>D:\Git\batta\boards\30keys\Asfoora\Asfoora.kicad_sch</source>
-    <date>Sun, 21/08/2022 14:19:07</date>
-    <tool>Eeschema (6.0.4)</tool>
+    <source>/Users/amanso/personal/batta/boards/30keys/Asfoora/Asfoora.kicad_sch</source>
+    <date>2022 September 07, Wednesday 08:46:14</date>
+    <tool>Eeschema (6.0.7-1)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -232,7 +232,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Asfoora.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>fa5d9c89-54e0-49e6-a404-29eddf2326d4</tstamps>
+      <tstamps>7da61a7c-6d4f-4500-9fbf-6cade3677956</tstamps>
     </comp>
     <comp ref="D16">
       <value>1N4148</value>
@@ -288,7 +288,7 @@
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="Asfoora.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>525775d5-0e6e-4c76-b5ab-199b2e54ac41</tstamps>
+      <tstamps>c33fb541-285d-48f6-bb03-96059c0a757c</tstamps>
     </comp>
     <comp ref="D20">
       <value>1N4148</value>
@@ -972,13 +972,10 @@
   </libparts>
   <libraries>
     <library logical="Connector">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector.kicad_sym</uri>
     </library>
     <library logical="Switch">
-      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Switch.kicad_sym</uri>
-    </library>
-    <library logical="alaa">
-      <uri>C:/Users/AlaaS/Documents/KiCad/6.0/symbols/alaa.kicad_sym</uri>
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Switch.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -1054,149 +1051,138 @@
       <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW13" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="19" name="Net-(D16-Pad2)">
-      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="20" name="Net-(D17-Pad2)">
-      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="21" name="Net-(D18-Pad2)">
-      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="22" name="Net-(D20-Pad2)">
-      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="23" name="Net-(D21-Pad2)">
-      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="24" name="Net-(D22-Pad2)">
-      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="25" name="Net-(D23-Pad2)">
-      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="26" name="Net-(D24-Pad2)">
-      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW24" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="27" name="Net-(D25-Pad2)">
-      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW25" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="28" name="Net-(D26-Pad2)">
-      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW26" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="29" name="Net-(D27-Pad2)">
-      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW27" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="30" name="Net-(D28-Pad2)">
-      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW28" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="31" name="Net-(D29-Pad2)">
-      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW29" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="32" name="Net-(D30-Pad2)">
-      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW30" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="33" name="Net-(D31-Pad2)">
-      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW31" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="34" name="Net-(D32-Pad2)">
-      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="SW32" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="35" name="SW31A">
-      <node ref="SW1" pin="S1" pinfunction="S1" pintype="passive"/>
-      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW16" pin="S2" pinfunction="S2" pintype="passive"/>
-      <node ref="SW23" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW27" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW31" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="U1" pin="11" pinfunction="B4/8" pintype="bidirectional"/>
-    </net>
-    <net code="36" name="SW31B">
+    <net code="19" name="Net-(D15-Pad2)">
       <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW1" pin="S2" pinfunction="S2" pintype="passive"/>
     </net>
-    <net code="37" name="SW32B">
+    <net code="20" name="Net-(D16-Pad2)">
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW19" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(D17-Pad2)">
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW17" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(D18-Pad2)">
+      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW18" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(D19-Pad2)">
       <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="SW16" pin="S1" pinfunction="S1" pintype="passive"/>
     </net>
-    <net code="38" name="bat+">
+    <net code="24" name="Net-(D20-Pad2)">
+      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW20" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(D21-Pad2)">
+      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW21" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(D22-Pad2)">
+      <node ref="D22" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW22" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(D23-Pad2)">
+      <node ref="D23" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW23" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="28" name="Net-(D24-Pad2)">
+      <node ref="D24" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW24" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(D25-Pad2)">
+      <node ref="D25" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW25" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(D26-Pad2)">
+      <node ref="D26" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW26" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D27-Pad2)">
+      <node ref="D27" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW27" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D28-Pad2)">
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW28" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D29-Pad2)">
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW29" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D30-Pad2)">
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW30" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D31-Pad2)">
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW31" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="36" name="Net-(D32-Pad2)">
+      <node ref="D32" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="SW32" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="37" name="bat+">
       <node ref="SW34" pin="2" pinfunction="B" pintype="passive"/>
     </net>
-    <net code="39" name="col_0">
+    <net code="38" name="col_0">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="13" pinfunction="10/B6" pintype="bidirectional"/>
     </net>
-    <net code="40" name="col_1">
+    <net code="39" name="col_1">
       <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="14" pinfunction="16/B2" pintype="bidirectional"/>
     </net>
-    <net code="41" name="col_2">
+    <net code="40" name="col_2">
       <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="15" pinfunction="14/B3" pintype="bidirectional"/>
     </net>
-    <net code="42" name="col_3">
+    <net code="41" name="col_3">
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="16" pinfunction="15/B1" pintype="bidirectional"/>
     </net>
-    <net code="43" name="col_4">
+    <net code="42" name="col_4">
       <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="17" pinfunction="A0/F7" pintype="bidirectional"/>
     </net>
-    <net code="44" name="col_5">
+    <net code="43" name="col_5">
       <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D22" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D23" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D24" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="18" pinfunction="A1/F6" pintype="bidirectional"/>
     </net>
-    <net code="45" name="col_6">
+    <net code="44" name="col_6">
       <node ref="D25" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D26" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D27" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="19" pinfunction="A2/F5" pintype="bidirectional"/>
     </net>
-    <net code="46" name="col_7">
+    <net code="45" name="col_7">
       <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D32" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U1" pin="20" pinfunction="A3/F4" pintype="bidirectional"/>
     </net>
-    <net code="47" name="gnd">
+    <net code="46" name="gnd">
       <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="SW1" pin="C" pinfunction="C" pintype="passive"/>
       <node ref="SW16" pin="C" pinfunction="C" pintype="passive"/>
@@ -1205,15 +1191,15 @@
       <node ref="U1" pin="3" pinfunction="GND" pintype="power_in"/>
       <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="48" name="raw">
+    <net code="47" name="raw">
       <node ref="SW34" pin="3" pinfunction="C" pintype="passive"/>
       <node ref="U1" pin="24" pinfunction="RAW" pintype="power_out"/>
     </net>
-    <net code="49" name="reset">
+    <net code="48" name="reset">
       <node ref="SW33" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="22" pinfunction="RST" pintype="input"/>
     </net>
-    <net code="50" name="row_0">
+    <net code="49" name="row_0">
       <node ref="SW12" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW17" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW2" pin="1" pinfunction="1" pintype="passive"/>
@@ -1224,7 +1210,7 @@
       <node ref="SW8" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="9" pinfunction="D7/6" pintype="bidirectional"/>
     </net>
-    <net code="51" name="row_1">
+    <net code="50" name="row_1">
       <node ref="SW13" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW18" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW22" pin="1" pinfunction="1" pintype="passive"/>
@@ -1234,6 +1220,17 @@
       <node ref="SW6" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="SW9" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="U1" pin="10" pinfunction="E6/7" pintype="bidirectional"/>
+    </net>
+    <net code="51" name="row_2">
+      <node ref="SW1" pin="S1" pinfunction="S1" pintype="passive"/>
+      <node ref="SW10" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW16" pin="S2" pinfunction="S2" pintype="passive"/>
+      <node ref="SW23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW27" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW31" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW4" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="SW7" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="B4/8" pintype="bidirectional"/>
     </net>
     <net code="52" name="row_3">
       <node ref="SW11" pin="1" pinfunction="1" pintype="passive"/>
