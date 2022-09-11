@@ -1,4 +1,4 @@
-# Disclaimer: Please keep in mind that there are prototypes rhere. Use the files at your own risk.
+# Disclaimer: Please keep in mind that there are prototypes here. Use the files at your own risk.
 
 All the split boards here are/have:
 
