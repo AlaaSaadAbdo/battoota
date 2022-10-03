@@ -69,3 +69,6 @@ Here's how the PCBs look like:
 | Front | 
 | :---: | 
 | ![front](/images/Asfoora/front.png) | 
+
+# Pictures
+![active-boards](/images/Pictures/active-boards.jpg)
