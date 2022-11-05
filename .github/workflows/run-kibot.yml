@@ -12,7 +12,7 @@ on:
       - '.github/workflows/run-kibot.yml'
 
 jobs:
-  matrix:
+  render:
     strategy:
       matrix:
         board: [ 
@@ -33,6 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+    - run: ls - lisah
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
         # Required - kibot config file
