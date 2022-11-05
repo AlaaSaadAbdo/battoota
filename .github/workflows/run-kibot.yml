@@ -15,7 +15,21 @@ jobs:
   matrix:
     strategy:
       matrix:
-        board: [ Asfoora, Basbousa36, Basbousa, Battoota-3thumb, Konafa_min, Konafa, Batreeq, Wizza-mx, Wizza-chocv1-mx-spacing, Wizza-chocV2, Wizza, Battoota_min, Battoota ]
+        board: [ 
+          boards\30keys\Asfoora\Asfoora.kicad_pcb,
+          boards\30keys\Batreeq\Batreeq-plate-top.kicad_pcb,
+          boards\30keys\battoota\battoota.kicad_pcb,
+          boards\30keys\battoota_min\battoota_min.kicad_pcb,
+          boards\30keys\wizza\wizza.kicad_pcb,
+          boards\30keys\Wizza-chocV1-MX_Spacing\wizza.kicad_pcb,
+          boards\30keys\wizza-chocV2\wizza.kicad_pcb,
+          boards\30keys\wizza-mx\wizza.kicad_pcb,
+          boards\32keys\battoota-3thumb\battoota.kicad_pcb,
+          boards\32keys\Konafa\konafa.kicad_pcb,
+          boards\32keys\konafa_min\konafa_min.kicad_pcb,
+          boards\34keys\basbousa\basbousa.kicad_pcb,
+          boards\36keys\basbousa36\basbousa.kicad_pcb
+          ]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
@@ -28,12 +42,11 @@ jobs:
         # optional - schematic file
         # schema: 'main.kicad_sch'
         # optional - PCB design file
-        board: "${{ matrix.board }}.kicad_pcb"
+        board: ${{ matrix.board }}
   archive: 
     needs: matrix
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
     - uses: actions/upload-artifact@v2
       with:
         name: firmware
