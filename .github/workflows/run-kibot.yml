@@ -17,7 +17,7 @@ jobs:
       matrix:
         board: [ Asfoora, Basbousa36, Basbousa, Battoota-3thumb, Konafa_min, Konafa, Batreeq, Wizza-mx, Wizza-chocv1-mx-spacing, Wizza-chocV2, Wizza, Battoota_min, Battoota ]
     steps:
-      uses: INTI-CMNB/KiBot@v2_k6
+      - uses: INTI-CMNB/KiBot@v2_k6
       with:
         # Required - kibot config file
         config: main.kibot.yaml
@@ -30,7 +30,7 @@ jobs:
   archive: 
     name: Archive
     needs: matrix
-    uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v2
     with:
       name: firmware
       path: gallery
