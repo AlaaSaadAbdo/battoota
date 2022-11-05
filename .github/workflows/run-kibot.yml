@@ -30,8 +30,9 @@ jobs:
         board: "${{ matrix.board }}.kicad_pcb"
   archive: 
       needs: matrix
-      - uses: actions/upload-artifact@v2
+      steps:
       - uses: actions/checkout@v3
+      - uses: actions/upload-artifact@v2
         with:
           name: firmware
           path: gallery
