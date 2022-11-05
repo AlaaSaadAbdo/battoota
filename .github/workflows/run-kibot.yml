@@ -45,7 +45,7 @@ jobs:
         # optional - PCB design file
         board: ${{ matrix.board }}
   archive: 
-    needs: matrix
+    needs: render
     runs-on: ubuntu-latest
     steps:
     - uses: actions/upload-artifact@v2
