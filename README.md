@@ -78,3 +78,13 @@ Here's how the PCBs look like:
 # Pictures
 ![active-boards](/images/Pictures/active-boards.jpg)
 ![batreeq](/images/Pictures/Batreeq.jpg)
+
+## Credits/references
+
+All of the boards here wouldn't be possible without the help of some awesome people and their projects:
+- [bredfield](https://github.com/bredfield)
+- [Rae Dux](https://github.com/andrewjrae/rae-dux)
+- [Rufous/Berylline](https://github.com/jcmkk3/trochilidae)
+- [Sadek Baroudi](https://github.com/sadekbaroudi) of [fingerpunch](https://fingerpunch.xyz)
+- [Hazel](https://github.com/jasonhazel)
+- [Frenzel](https://github.com/freznel10)
