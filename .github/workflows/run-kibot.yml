@@ -33,7 +33,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: ls -lisah
+    - run: ls -lisah boards\30keys\Asfoora\
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
         # Required - kibot config file
