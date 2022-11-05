@@ -70,5 +70,11 @@ Here's how the PCBs look like:
 | :---: | 
 | ![front](/images/Asfoora/front.png) | 
 
+### Batreeq
+| Front | 
+| :---: | 
+| ![front](/images/Batreeq/front.png) | 
+
 # Pictures
 ![active-boards](/images/Pictures/active-boards.jpg)
+![batreeq](/images/Pictures/Batreeq.jpg)

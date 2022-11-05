@@ -53,6 +53,11 @@ jobs:
         with:
           pcb_file: ./boards/30keys/Asfoora/Asfoora.kicad_pcb
           pngs_dir: ./images/Asfoora/
+      - name: Batreeq
+        uses: ./.github/actions/export-pngs
+        with:
+          pcb_file: ./boards/30keys/Batreeq/Batreeq.kicad_pcb
+          pngs_dir: ./images/Batreeq/
       # 32 KEYS
       - name: Konafa
         uses: ./.github/actions/export-pngs
