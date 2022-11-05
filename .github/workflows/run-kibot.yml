@@ -16,24 +16,24 @@ jobs:
     strategy:
       matrix:
         board: [ 
-          boards\30keys\Asfoora\Asfoora.kicad_pcb,
-          boards\30keys\Batreeq\Batreeq-plate-top.kicad_pcb,
-          boards\30keys\battoota\battoota.kicad_pcb,
-          boards\30keys\battoota_min\battoota_min.kicad_pcb,
-          boards\30keys\wizza\wizza.kicad_pcb,
-          boards\30keys\Wizza-chocV1-MX_Spacing\wizza.kicad_pcb,
-          boards\30keys\wizza-chocV2\wizza.kicad_pcb,
-          boards\30keys\wizza-mx\wizza.kicad_pcb,
-          boards\32keys\battoota-3thumb\battoota.kicad_pcb,
-          boards\32keys\Konafa\konafa.kicad_pcb,
-          boards\32keys\konafa_min\konafa_min.kicad_pcb,
-          boards\34keys\basbousa\basbousa.kicad_pcb,
-          boards\36keys\basbousa36\basbousa.kicad_pcb
+          boards/30keys/Asfoora/Asfoora.kicad_pcb,
+          boards/30keys/Batreeq/Batreeq-plate-top.kicad_pcb,
+          boards/30keys/battoota/battoota.kicad_pcb,
+          boards/30keys/battoota_min/battoota_min.kicad_pcb,
+          boards/30keys/wizza/wizza.kicad_pcb,
+          boards/30keys/Wizza-chocV1-MX_Spacing/wizza.kicad_pcb,
+          boards/30keys/wizza-chocV2/wizza.kicad_pcb,
+          boards/30keys/wizza-mx/wizza.kicad_pcb,
+          boards/32keys/battoota-3thumb/battoota.kicad_pcb,
+          boards/32keys/Konafa/konafa.kicad_pcb,
+          boards/32keys/konafa_min/konafa_min.kicad_pcb,
+          boards/34keys/basbousa/basbousa.kicad_pcb,
+          boards/36keys/basbousa36/basbousa.kicad_pcb
           ]
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: ls -lisah boards\30keys\Asfoora\
+    - run: ls -lisah boards/30keys/Asfoora/
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
         # Required - kibot config file
