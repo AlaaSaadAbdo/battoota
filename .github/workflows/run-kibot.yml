@@ -1,0 +1,38 @@
+name: "KiCad CI/CD for Swipe Light main board"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      # - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '*.kibot.yaml'
+      - '.github/workflows/run-kibot.yml'
+
+jobs:
+  matrix:
+    strategy:
+      matrix:
+        board: [ Asfoora, Basbousa36, Basbousa, Battoota-3thumb, Konafa_min, Konafa, Batreeq, Wizza-mx, Wizza-chocv1-mx-spacing, Wizza-chocV2, Wizza, Battoota_min, Battoota ]
+    steps:
+    - uses: actions/checkout@v3
+    - uses: INTI-CMNB/KiBot@v2_k6
+      with:
+        # Required - kibot config file
+        config: main.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: gallery/
+        # optional - schematic file
+        # schema: 'main.kicad_sch'
+        # optional - PCB design file
+        board: "${{ matrix.board }}.kicad_pcb"
+  archive: 
+    - needs: matrix
+    - name: Archive
+      uses: actions/upload-artifact@v2
+      with:
+        name: firmware
+        path: gallery
+
