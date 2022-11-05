@@ -16,6 +16,7 @@ jobs:
     strategy:
       matrix:
         board: [ Asfoora, Basbousa36, Basbousa, Battoota-3thumb, Konafa_min, Konafa, Batreeq, Wizza-mx, Wizza-chocv1-mx-spacing, Wizza-chocV2, Wizza, Battoota_min, Battoota ]
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
     - uses: INTI-CMNB/KiBot@v2_k6
@@ -29,11 +30,12 @@ jobs:
         # optional - PCB design file
         board: "${{ matrix.board }}.kicad_pcb"
   archive: 
-      needs: matrix
-      steps:
-      - uses: actions/checkout@v3
-      - uses: actions/upload-artifact@v2
-        with:
-          name: firmware
-          path: gallery
+    needs: matrix
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - uses: actions/upload-artifact@v2
+      with:
+        name: firmware
+        path: gallery
 
