@@ -56,7 +56,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           path: gallery/
-      - run: mv gallery/artifact gallery/
+      - run: mv gallery/artifact images/
       - uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
           commit_message: "Update gallery (automated)"
