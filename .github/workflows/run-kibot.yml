@@ -43,7 +43,7 @@ jobs:
         # optional - schematic file
         # schema: 'main.kicad_sch'
         # optional - PCB design file
-        board: '"${{ matrix.board }}.kicad_pcb"'
+        board: "${{ matrix.board }}.kicad_pcb"
     - uses: actions/upload-artifact@main
       with:
         name: ${{ matrix.board }}
