@@ -76,8 +76,8 @@ Here's how the PCBs look like:
 | ![front](/gallery/artifact/boards/30keys/Batreeq/Batreeq/gallery/Batreeq-top.png) | 
 
 # Pictures
-![active-boards](/gallery/Pictures/active-boards.jpg)
-![batreeq](/gallery/Pictures/Batreeq.jpg)
+![active-boards](/Pictures/active-boards.jpg)
+![batreeq](/Pictures/Batreeq.jpg)
 
 ## Credits/references
 
