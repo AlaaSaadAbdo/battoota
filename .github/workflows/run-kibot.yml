@@ -47,7 +47,7 @@ jobs:
     - uses: actions/upload-artifact@main
       with:
         name: ${{ matrix.board }}
-        path: images/${{ matrix.board }}
+        path: images/"${{ matrix.board }}.png"
 
   publish: 
     needs: render
