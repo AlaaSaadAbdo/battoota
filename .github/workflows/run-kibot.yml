@@ -39,7 +39,7 @@ jobs:
         # Required - kibot config file
         config: main.kibot.yaml
         # optional - prefix to output defined in config
-        dir: gallery/
+        dir: gallery/${{ matrix.board }}
         # optional - schematic file
         # schema: 'main.kicad_sch'
         # optional - PCB design file
@@ -48,7 +48,7 @@ jobs:
     - uses: actions/upload-artifact@main
       with:
         name: ${{ matrix.board }}
-        path: gallery/${{ matrix.board }}.png
+        path: gallery/
 
   publish: 
     needs: render
