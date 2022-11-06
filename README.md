@@ -19,27 +19,27 @@ Here's how the PCBs look like:
 
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/wizza/front.png) | ![back](/images/wizza/back.png) |
+| ![front](/gallery/artifact/boards/30keys/wizza/wizza/gallery/wizza-top.png) | ![back](/gallery/artifact/boards/30keys/wizza/wizza/gallery/wizza-bottom.png) |
 
 ### Wizza Choc V1 MX spacing
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/wizza-chocV1-MX_spacing/front.png) | ![back](/images/wizza-chocV1-MX_spacing/back.png) |
+| ![front](/gallery/artifact/boards/30keys/Wizza-chocV1-MX_Spacing/wizza/gallery/wizza-top.png) | ![back](/gallery/artifact/boards/30keys/Wizza-chocV1-MX_Spacing/wizza/gallery/wizza-bottom.png) |
 
 ### Wizza Choc V2
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/wizza-chocV2/front.png) | ![back](/images/wizza-chocV2/back.png) |
+| ![front](/gallery/artifact/boards/30keys/wizza-chocV2/wizza/gallery/wizza-top.png) | ![back](/gallery/artifact/boards/30keys/wizza-chocV2/wizza/gallery/wizza-bottom.png) |
 
 ### Wizza MX
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/wizza-mx/front.png) | ![back](/images/wizza-mx/back.png) |
+| ![front](/gallery/artifact/boards/30keys/wizza-mx/wizza/gallery/wizza-top.png) | ![back](/gallery/artifact/boards/30keys/wizza-mx/wizza/gallery/wizza-bottom.png) |
 
 ### Battoota
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/battoota/front.png) | ![back](/images/battoota/back.png) |
+| ![front](/gallery/artifact/boards/30keys/battoota/battoota/gallery/battoota-top.png) | ![back](/gallery/artifact/boards/30keys/battoota/battoota/gallery/battoota-bottom.png) |
 
 ## 32 Keys
 
@@ -47,19 +47,19 @@ Here's how the PCBs look like:
 
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/battoota-3thumb/front.png) | ![back](/images/battoota-3thumb/back.png) |
+| ![front](/gallery/artifact/boards/32keys/battoota-3thumb/battoota/gallery/battoota-top.png) | ![back](/gallery/artifact/boards/32keys/battoota-3thumb/battoota/gallery/battoota-bottom.png) |
 
 ### Konafa
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/konafa/front.png) | ![back](/images/konafa/back.png) |
+| ![front](/gallery/artifact/boards/32keys/konafa/konafa/gallery/konafa-top.png) | ![back](/gallery/artifact/boards/32keys/konafa/konafa/gallery/konafa-bottom.png) |
 
 ## 34 Keys
 
 ### Basbousa
 | Front | Back |
 | :---: | :---: |
-| ![front](/images/basbousa/front.png) | ![back](/images/basbousa/back.png) |
+| ![front](/gallery/artifact/boards/34keys/basbousa/basbousa/gallery/basbousa-top.png) | ![back](/gallery/artifact/boards/34keys/basbousa/basbousa/gallery/basbousa-bottom.png) |
 
 # Unibody
 
@@ -68,16 +68,16 @@ Here's how the PCBs look like:
 ### Asfoora
 | Front | 
 | :---: | 
-| ![front](/images/Asfoora/front.png) | 
+| ![front](/gallery/artifact/boards/30keys/Asfoora/Asfoora/gallery/Asfoora-top.png) | 
 
 ### Batreeq
 | Front | 
 | :---: | 
-| ![front](/images/Batreeq/front.png) | 
+| ![front](/gallery/artifact/boards/30keys/Batreeq/Batreeq/gallery/Batreeq-top.png) | 
 
 # Pictures
-![active-boards](/images/Pictures/active-boards.jpg)
-![batreeq](/images/Pictures/Batreeq.jpg)
+![active-boards](/gallery/Pictures/active-boards.jpg)
+![batreeq](/gallery/Pictures/Batreeq.jpg)
 
 ## Credits/references
 
