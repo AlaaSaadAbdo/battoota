@@ -46,7 +46,7 @@ jobs:
         board: "${{ matrix.board }}.kicad_pcb"
     - uses: actions/upload-artifact@main
       with:
-        path: "gallery/${{ matrix.board }}/**"
+        path: gallery/
 
   publish: 
     needs: render
