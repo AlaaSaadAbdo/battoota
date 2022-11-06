@@ -39,16 +39,16 @@ jobs:
         # Required - kibot config file
         config: main.kibot.yaml
         # optional - prefix to output defined in config
-        dir: images/
+        dir: gallery/
         # optional - schematic file
         # schema: 'main.kicad_sch'
         # optional - PCB design file
         board: "${{ matrix.board }}.kicad_pcb"
-    - run: ls -laR images/
+    - run: ls -laR gallery/
     - uses: actions/upload-artifact@main
       with:
         name: ${{ matrix.board }}
-        path: images/${{ matrix.board }}.png
+        path: gallery/${{ matrix.board }}.png
 
   publish: 
     needs: render
@@ -57,7 +57,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: actions/download-artifact@v3
         with:
-          path: images/
+          path: gallery/
       - uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
           commit_message: "Update gallery (automated)"
