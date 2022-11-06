@@ -14,6 +14,7 @@ on:
 jobs:
   render:
     strategy:
+      fail-fast: false
       matrix:
         board: [ 
           boards/30keys/Asfoora/Asfoora.kicad_pcb,
@@ -25,7 +26,7 @@ jobs:
           boards/30keys/wizza-chocV2/wizza.kicad_pcb,
           boards/30keys/wizza-mx/wizza.kicad_pcb,
           boards/32keys/battoota-3thumb/battoota.kicad_pcb,
-          boards/32keys/Konafa/konafa.kicad_pcb,
+          boards/32keys/konafa/konafa.kicad_pcb,
           boards/32keys/konafa_min/konafa_min.kicad_pcb,
           boards/34keys/basbousa/basbousa.kicad_pcb,
           boards/36keys/basbousa36/basbousa.kicad_pcb
@@ -33,7 +34,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
-    - run: ls -lisah boards/32keys/Konafa
+    - run: ls -lisah boards/32keys/
     - uses: INTI-CMNB/KiBot@v2_k6
       with:
         # Required - kibot config file
