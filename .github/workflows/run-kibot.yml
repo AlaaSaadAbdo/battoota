@@ -17,19 +17,19 @@ jobs:
       fail-fast: false
       matrix:
         board: [ 
-          boards/30keys/Asfoora/Asfoora,
-          boards/30keys/Batreeq/Batreeq,
-          boards/30keys/battoota/battoota,
-          boards/30keys/battoota_min/battoota_min,
-          boards/30keys/wizza/wizza,
-          boards/30keys/Wizza-chocV1-MX_Spacing/wizza,
-          boards/30keys/wizza-chocV2/wizza,
-          boards/30keys/wizza-mx/wizza,
-          boards/32keys/battoota-3thumb/battoota,
-          boards/32keys/konafa/konafa,
-          boards/32keys/konafa_min/konafa_min,
-          boards/34keys/basbousa/basbousa,
-          boards/36keys/basbousa36/basbousa
+          30keys/Asfoora/Asfoora,
+          30keys/Batreeq/Batreeq,
+          30keys/battoota/battoota,
+          30keys/battoota_min/battoota_min,
+          30keys/wizza/wizza,
+          30keys/Wizza-chocV1-MX_Spacing/wizza,
+          30keys/wizza-chocV2/wizza,
+          30keys/wizza-mx/wizza,
+          32keys/battoota-3thumb/battoota,
+          32keys/konafa/konafa,
+          32keys/konafa_min/konafa_min,
+          34keys/basbousa/basbousa,
+          36keys/basbousa36/basbousa
           ]
     runs-on: ubuntu-latest
     steps:
@@ -43,7 +43,7 @@ jobs:
         # optional - schematic file
         # schema: 'main.kicad_sch'
         # optional - PCB design file
-        board: "${{ matrix.board }}.kicad_pcb"
+        board: "boards/${{ matrix.board }}.kicad_pcb"
     - uses: actions/upload-artifact@main
       with:
         path: gallery/

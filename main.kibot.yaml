@@ -17,14 +17,12 @@ outputs:
   - name: pcb_top_b
     comment: "PCB render top blue"
     type: pcbdraw
-    dir: gallery/
     options:
       format: png
       style: set-black-enig
   - name: pcb_bot_b
     comment: "PCB render bottom blue"
     type: pcbdraw
-    dir: gallery/
     options:
       format: png
       style: set-black-enig
