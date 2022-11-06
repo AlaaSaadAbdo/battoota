@@ -20,4 +20,4 @@ outputs:
     dir: main/
     options:
       format: png
-      style: set-purple-enig
+      style: set-blue-enig
