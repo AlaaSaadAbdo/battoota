@@ -44,10 +44,9 @@ jobs:
         # schema: 'main.kicad_sch'
         # optional - PCB design file
         board: "${{ matrix.board }}.kicad_pcb"
-    - run: ls -laR gallery/
     - uses: actions/upload-artifact@main
       with:
-        path: gallery/
+        path: "gallery/${{ matrix.board }}/**"
 
   publish: 
     needs: render
@@ -57,7 +56,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           path: gallery/
-      - run: rmdir gallery/artifact
+      - run: mv gallery/artifact gallery/
       - uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
           commit_message: "Update gallery (automated)"
