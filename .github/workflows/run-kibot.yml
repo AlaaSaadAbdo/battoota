@@ -44,6 +44,7 @@ jobs:
         # schema: 'main.kicad_sch'
         # optional - PCB design file
         board: "${{ matrix.board }}.kicad_pcb"
+    - run: ls -laR images/
     - uses: actions/upload-artifact@main
       with:
         name: ${{ matrix.board }}
