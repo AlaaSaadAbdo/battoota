@@ -24,7 +24,7 @@ outputs:
   - name: pcb_bot_b
     comment: "PCB render bottom blue"
     type: pcbdraw
-    dir: main/
+    dir: gallery/
     options:
       format: png
       style: set-black-enig
