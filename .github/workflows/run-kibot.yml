@@ -7,7 +7,7 @@ on:
   push:
     paths:
       # - '*.kicad_sch'
-      - '*.kicad_pcb'
+      - '*'
       - '*.kibot.yaml'
       - '.github/workflows/run-kibot.yml'
 
@@ -17,19 +17,19 @@ jobs:
       fail-fast: false
       matrix:
         board: [ 
-          boards/30keys/Asfoora/Asfoora.kicad_pcb,
-          boards/30keys/Batreeq/Batreeq.kicad_pcb,
-          boards/30keys/battoota/battoota.kicad_pcb,
-          boards/30keys/battoota_min/battoota_min.kicad_pcb,
-          boards/30keys/wizza/wizza.kicad_pcb,
-          boards/30keys/Wizza-chocV1-MX_Spacing/wizza.kicad_pcb,
-          boards/30keys/wizza-chocV2/wizza.kicad_pcb,
-          boards/30keys/wizza-mx/wizza.kicad_pcb,
-          boards/32keys/battoota-3thumb/battoota.kicad_pcb,
-          boards/32keys/konafa/konafa.kicad_pcb,
-          boards/32keys/konafa_min/konafa_min.kicad_pcb,
-          boards/34keys/basbousa/basbousa.kicad_pcb,
-          boards/36keys/basbousa36/basbousa.kicad_pcb
+          boards/30keys/Asfoora/Asfoora,
+          boards/30keys/Batreeq/Batreeq,
+          boards/30keys/battoota/battoota,
+          boards/30keys/battoota_min/battoota_min,
+          boards/30keys/wizza/wizza,
+          boards/30keys/Wizza-chocV1-MX_Spacing/wizza,
+          boards/30keys/wizza-chocV2/wizza,
+          boards/30keys/wizza-mx/wizza,
+          boards/32keys/battoota-3thumb/battoota,
+          boards/32keys/konafa/konafa,
+          boards/32keys/konafa_min/konafa_min,
+          boards/34keys/basbousa/basbousa,
+          boards/36keys/basbousa36/basbousa
           ]
     runs-on: ubuntu-latest
     steps:
@@ -43,13 +43,22 @@ jobs:
         # optional - schematic file
         # schema: 'main.kicad_sch'
         # optional - PCB design file
-        board: ${{ matrix.board }}
-  archive: 
+        board: '"${{ matrix.board }}.kicad_pcb"'
+    - uses: actions/upload-artifact@main
+      with:
+        name: ${{ matrix.board }}
+        path: images/ ${{ matrix.board }}
+
+  publish: 
     needs: render
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/upload-artifact@v2
-      with:
-        name: firmware
-        path: gallery
-
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v3
+        with:
+          path: images/
+      - uses: stefanzweifel/git-auto-commit-action@v4.14.1
+        with:
+          commit_message: "Update gallery (automated)"
+          commit_user_name: GitHub Actions Bot
