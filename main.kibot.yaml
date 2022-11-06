@@ -17,7 +17,7 @@ outputs:
   - name: pcb_top_b
     comment: "PCB render top blue"
     type: pcbdraw
-    dir: gallery/
+    dir: images/
     options:
       format: png
       style: set-blue-enig

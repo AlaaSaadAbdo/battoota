@@ -39,7 +39,7 @@ jobs:
         # Required - kibot config file
         config: main.kibot.yaml
         # optional - prefix to output defined in config
-        dir: gallery/
+        dir: images/
         # optional - schematic file
         # schema: 'main.kicad_sch'
         # optional - PCB design file
