@@ -21,13 +21,3 @@ outputs:
     options:
       format: png
       style: set-purple-enig
-
-  # render the bottom side with pcbdraw
-  - name: pcb_bot_b
-    comment: "PCB render bottom blue"
-    type: pcbdraw
-    dir: main/
-    options:
-      format: png
-      style: set-purple-enig
-      bottom: True

@@ -18,7 +18,7 @@ jobs:
       matrix:
         board: [ 
           boards/30keys/Asfoora/Asfoora.kicad_pcb,
-          boards/30keys/Batreeq/Batreeq-plate-top.kicad_pcb,
+          boards/30keys/Batreeq/Batreeq.kicad_pcb,
           boards/30keys/battoota/battoota.kicad_pcb,
           boards/30keys/battoota_min/battoota_min.kicad_pcb,
           boards/30keys/wizza/wizza.kicad_pcb,
