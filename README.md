@@ -8,6 +8,10 @@ All the split boards here are/have:
 - Tenting Puck support
 - JST Connector for battery
 
+### TODO
+
+- Trye a trackball mount with 4mm steel ball bearings and built in BTUs
+- Build Rommana with DES shoc and make a flex PCB for it
 
 Here's how the PCBs look like:
 
