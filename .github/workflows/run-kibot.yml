@@ -56,6 +56,7 @@ jobs:
       - uses: actions/download-artifact@v3
         with:
           path: gallery/
+      - run: rm -rf pcb_images/artifact
       - run: mv gallery/artifact pcb_images/
       - uses: stefanzweifel/git-auto-commit-action@v4.14.1
         with:
