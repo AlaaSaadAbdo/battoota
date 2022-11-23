@@ -1,4 +1,4 @@
-name: "KiCad CI/CD for Swipe Light main board"
+name: "KiCad CI/CD to render boards"
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -7,7 +7,7 @@ on:
   push:
     paths:
       # - '*.kicad_sch'
-      - '*'
+      - '*.kicad_pcb'
       - '*.kibot.yaml'
       - '.github/workflows/run-kibot.yml'
 
