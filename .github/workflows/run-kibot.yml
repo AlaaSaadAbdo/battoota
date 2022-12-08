@@ -18,8 +18,8 @@ jobs:
       matrix:
         board: [ 
           30keys/Asfoora/Asfoora,
-          30keys/Batreeq/Batreeq/V1/Batreeq,
-          30keys/Batreeq/Batreeq/V2/BatreeqV2,
+          30keys/Batreeq/V1/Batreeq,
+          30keys/Batreeq/V2/BatreeqV2,
           30keys/battoota/battoota,
           30keys/battoota_min/battoota_min,
           30keys/wizza/wizza,
