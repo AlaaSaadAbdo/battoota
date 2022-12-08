@@ -75,9 +75,14 @@ Here's how the PCBs look like:
 | ![front](pcb_images/30keys/Asfoora/Asfoora/Asfoora-top.png) | 
 
 ### Batreeq
+#### V1
 | Front | 
 | :---: | 
-| ![front](pcb_images/30keys/Batreeq/Batreeq/Batreeq-top.png) | 
+| ![front](pcb_images/30keys/Batreeq/V1/Batreeq/Batreeq-top.png) | 
+#### V2
+| Front | 
+| :---: | 
+| ![front](pcb_images/30keys/Batreeq/V2/BatreeqV2/Batreeq-top.png) | 
 
 # Pictures
 ![active-boards](/Pictures/active-boards.jpg)
