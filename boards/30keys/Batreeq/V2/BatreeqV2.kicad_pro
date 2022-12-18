@@ -56,8 +56,8 @@
       },
       "rule_severities": {
         "annular_width": "error",
-        "clearance": "error",
-        "copper_edge_clearance": "error",
+        "clearance": "ignore",
+        "copper_edge_clearance": "ignore",
         "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -332,7 +332,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Batreeq.kicad_pro",
+    "filename": "BatreeqV2.kicad_pro",
     "version": 1
   },
   "net_settings": {
