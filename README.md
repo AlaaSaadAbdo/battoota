@@ -85,8 +85,7 @@ Here's how the PCBs look like:
 | ![front](pcb_images/30keys/Batreeq/V2/BatreeqV2/BatreeqV2-top.png) | 
 
 # Pictures
-![active-boards](/Pictures/active-boards.jpg)
-![batreeq](/Pictures/Batreeq.jpg)
+![active-boards](/Pictures/active-boards-2.jpg)
 
 ## Credits/references
 
