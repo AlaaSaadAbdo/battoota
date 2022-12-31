@@ -95,4 +95,4 @@ All of the boards here wouldn't be possible without the help of some awesome peo
 - [Rufous/Berylline](https://github.com/jcmkk3/trochilidae)
 - [Sadek Baroudi](https://github.com/sadekbaroudi) of [fingerpunch](https://fingerpunch.xyz)
 - [Hazel](https://github.com/jasonhazel)
-- [Frenzel](https://github.com/freznel10)
+- [Freznel](https://github.com/freznel10)
