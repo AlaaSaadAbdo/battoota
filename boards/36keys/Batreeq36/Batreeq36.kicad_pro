@@ -332,7 +332,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BatreeqV2.kicad_pro",
+    "filename": "Batreeq36.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -365,7 +365,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "Asfoora.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "Batreeq36.dsn",
       "step": "Asfoora.step",
       "vrml": ""
     },
