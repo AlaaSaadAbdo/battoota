@@ -30,7 +30,8 @@ jobs:
           32keys/konafa/konafa,
           32keys/konafa_min/konafa_min,
           34keys/basbousa/basbousa,
-          36keys/basbousa36/basbousa
+          36keys/basbousa36/basbousa,
+          40keys/zazu/zazu
           ]
     runs-on: ubuntu-latest
     steps:
