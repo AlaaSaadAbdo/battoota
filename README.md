@@ -84,6 +84,11 @@ Here's how the PCBs look like:
 | :---: | 
 | ![front](pcb_images/30keys/Batreeq/V2/BatreeqV2/BatreeqV2-top.png) | 
 
+### Zazu
+| Front | 
+| :---: | 
+| ![front](pcb_images/40keys/Zazu/Zazu/Zazu-top.png) | 
+
 # Pictures
 ![active-boards](/Pictures/active-boards-2.jpg)
 
