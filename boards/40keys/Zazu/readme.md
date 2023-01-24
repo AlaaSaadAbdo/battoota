@@ -12,3 +12,4 @@ BOM:
 9. 1 x WaveShare's 1.47 inch LCD.
 10. Scroll ring encoder (PER561-P115-N0015) 
 11. 3 x 2.5mm Ceramic Balls for the trackball mount.
+12. 4 2mmx1mm magnets for the screen cover or use the friction fit cover
