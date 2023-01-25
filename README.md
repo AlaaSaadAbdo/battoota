@@ -91,6 +91,7 @@ Here's how the PCBs look like:
 
 # Pictures
 ![active-boards](/Pictures/active-boards-2.jpg)
+![Zazu](/Pictures/Zazu.jpg)
 
 ## Credits/references
 
