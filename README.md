@@ -102,3 +102,4 @@ All of the boards here wouldn't be possible without the help of some awesome peo
 - [Sadek Baroudi](https://github.com/sadekbaroudi) of [fingerpunch](https://fingerpunch.xyz)
 - [Hazel](https://github.com/jasonhazel)
 - [Freznel](https://github.com/freznel10)
+- [Duckyb](https://github.com/duckyb)
