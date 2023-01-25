@@ -1,8 +1,12 @@
-BOM:
+# Zazu
+
+![Zazu](/Pictures/Zazu.jpg)
+
+## BOM:
 
 1. 1 x Pimoroni Haptic Buzzer breakout 
 2. 1 x PWM3360 Sensor https://de.aliexpress.com/item/4000904265601.html?spm=a2g0o.order_list.order_list_main.35.6e5e5c5fyNDLvJ&gatewayAdapt=glo2deu
-3. 12 x M3 screws and heat inserts 
+3. 12 x 12 x M3 4.6mx6m heat inserts and M3 screws 
 4. 43 x switches
 5. 43 x mx/choc hotswap sockets
 5. 43 x sk6812mini-e 
