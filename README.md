@@ -42,8 +42,13 @@ Here's how the PCBs look like:
 
 ### Battoota
 | Front | Back |
-| :---: | :---: |
+| :---: | ---: |
 | ![front](pcb_images/30keys/battoota/battoota/battoota-top.png) | ![back](pcb_images/30keys/battoota/battoota/battoota-bottom.png) |
+
+### Wired Wizza
+| Front | 
+| :---: | 
+| ![front](pcb_images/30keys/wired-wizza/wired-wizza/wired-wizza-top.png) | 
 
 ## 32 Keys
 
