@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 31,
+    "active_layer": 0,
     "active_layer_preset": "All Layers",
     "auto_track_width": false,
     "hidden_netclasses": [],
@@ -69,7 +69,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "wired-split.kicad_prl",
+    "filename": "wired-wizza.kicad_prl",
     "version": 3
   },
   "project": {

@@ -988,120 +988,6 @@
         )
       )
     )
-    (symbol "Logic_LevelTranslator:SN74LVC1T45DRL" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -6.35 8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SN74LVC1T45DRL" (at 3.81 8.89 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-563" (at 0 -11.43 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf" (at -22.86 -16.51 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "Level-Shifter CMOS-TTL-Translation" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-563" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "*SOT?563*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SN74LVC1T45DRL_0_1"
-        (rectangle (start -7.62 7.62) (end 7.62 -7.62)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (polyline
-          (pts
-            (xy -2.54 0)
-            (xy -2.54 1.016)
-            (xy -0.762 1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.794 0)
-            (xy 2.794 -1.016)
-            (xy 1.016 -1.016)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 -1.016)
-            (xy -2.54 -1.016)
-            (xy -2.54 0)
-            (xy -4.572 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -0.762 0)
-            (xy -0.762 2.032)
-            (xy 1.016 1.016)
-            (xy -0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 1.016)
-            (xy 2.794 1.016)
-            (xy 2.794 0)
-            (xy 4.064 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.016 0)
-            (xy 1.016 -1.778)
-            (xy 1.016 -2.032)
-            (xy -0.762 -1.016)
-            (xy 1.016 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "SN74LVC1T45DRL_1_1"
-        (pin power_in line (at -2.54 10.16 270) (length 2.54)
-          (name "VCCA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -10.16 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at -10.16 0 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin bidirectional line (at 10.16 0 180) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 -5.08 0) (length 2.54)
-          (name "DIR" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 2.54 10.16 270) (length 2.54)
-          (name "VCCB" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Power_Protection:PRTR5V0U2X" (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 2.794 8.636 0)
         (effects (font (size 1.27 1.27)))
@@ -2583,6 +2469,7 @@
     (uuid fcd481e3-b9f6-43e2-b0cf-bedbca035a0a)
   )
 
+  (no_connect (at 567.055 72.263) (uuid 2a7dbe50-e9b3-4cf6-8c4d-da6b8c651411))
   (no_connect (at 563.753 218.059) (uuid 36f3f8c0-f607-4339-8588-39b7e1b1f692))
   (no_connect (at 563.753 215.519) (uuid 4d7758a7-b9e0-4656-88b1-061365b2452f))
   (no_connect (at 621.157 227.711) (uuid 4e440787-c56f-4475-a1a0-5f58302dc0bd))
@@ -2606,6 +2493,7 @@
   (no_connect (at 621.157 232.791) (uuid c63cc754-9942-429d-b09e-69f3a9cc2c43))
   (no_connect (at 621.157 225.171) (uuid c9c66b8f-3141-4e5b-9888-31e791d466c9))
   (no_connect (at 234.569 222.377) (uuid ca11d59a-bf30-425d-925c-3558e1ed81ab))
+  (no_connect (at 288.671 77.089) (uuid d28fde30-bbc8-4581-bb77-43772c18a0a4))
   (no_connect (at 624.459 125.857) (uuid eb15adda-eaec-4ada-ae55-bd5d371448be))
   (no_connect (at 621.157 230.251) (uuid ed23b1ea-c671-49df-aa3c-22e065c5b09c))
   (no_connect (at 234.569 237.617) (uuid f3407fdf-2f09-4d25-b803-81864cada1f0))
@@ -2784,7 +2672,7 @@
     (stroke (width 0) (type default))
     (uuid 15eb03ca-39f1-4c9c-bb16-9ca8ded81196)
   )
-  (wire (pts (xy 207.137 271.653) (xy 219.583 271.653))
+  (wire (pts (xy 94.234 285.877) (xy 171.704 285.877))
     (stroke (width 0) (type default))
     (uuid 15f65798-64c1-4918-b10f-948ebf6331f2)
   )
@@ -2795,10 +2683,6 @@
   (wire (pts (xy 747.903 208.915) (xy 747.903 201.295))
     (stroke (width 0) (type default))
     (uuid 16a03177-c97e-4231-863a-fb8e6aa65755)
-  )
-  (wire (pts (xy 312.801 99.949) (xy 345.313 99.949))
-    (stroke (width 0) (type default))
-    (uuid 16b81342-2066-4d81-abd8-4e71e44aceb4)
   )
   (wire (pts (xy 758.063 125.095) (xy 760.603 125.095))
     (stroke (width 0) (type default))
@@ -2811,10 +2695,6 @@
   (wire (pts (xy 35.179 226.187) (xy 56.134 226.187))
     (stroke (width 0) (type default))
     (uuid 175e1dc4-8e8b-40af-9e78-081e2a337dd9)
-  )
-  (wire (pts (xy 365.633 99.949) (xy 371.221 99.949))
-    (stroke (width 0) (type default))
-    (uuid 179efbb5-c6e9-4f48-a8f6-d6fcdd856951)
   )
   (wire (pts (xy 71.374 278.257) (xy 86.614 278.257))
     (stroke (width 0) (type default))
@@ -2912,7 +2792,7 @@
     (stroke (width 0) (type default))
     (uuid 243a1ad3-6f9a-4352-9722-d87e93b28038)
   )
-  (wire (pts (xy 688.975 287.655) (xy 676.529 287.655))
+  (wire (pts (xy 761.492 281.051) (xy 756.412 281.051))
     (stroke (width 0) (type default))
     (uuid 2469aadf-7078-4cf9-b2e6-036901afaa5b)
   )
@@ -3136,10 +3016,6 @@
     (stroke (width 0) (type default))
     (uuid 488d0212-0a89-4a09-88df-7554d5751945)
   )
-  (wire (pts (xy 343.281 105.029) (xy 345.313 105.029))
-    (stroke (width 0) (type default))
-    (uuid 4938bd8f-9524-425f-b21b-38c8f25fc79b)
-  )
   (wire (pts (xy 699.643 121.285) (xy 643.763 121.285))
     (stroke (width 0) (type default))
     (uuid 49f10feb-8e34-4b64-b66a-a98d0faec4cc)
@@ -3147,6 +3023,10 @@
   (wire (pts (xy 84.963 85.471) (xy 100.203 85.471))
     (stroke (width 0) (type default))
     (uuid 4a1bd145-3908-4cc2-8825-7106dea1b915)
+  )
+  (wire (pts (xy 171.704 285.877) (xy 171.704 271.653))
+    (stroke (width 0) (type default))
+    (uuid 4a2a62aa-866a-410b-8101-2aea112437bd)
   )
   (wire (pts (xy 344.551 167.767) (xy 344.551 162.687))
     (stroke (width 0) (type default))
@@ -3572,6 +3452,10 @@
     (stroke (width 0) (type default))
     (uuid 8379eb31-7b4c-4d9b-9f23-f16758b00360)
   )
+  (wire (pts (xy 756.412 287.655) (xy 676.529 287.655))
+    (stroke (width 0) (type default))
+    (uuid 8399ba38-cbaa-40e7-8382-c3515aa5fd65)
+  )
   (wire (pts (xy 801.243 80.645) (xy 786.003 80.645))
     (stroke (width 0) (type default))
     (uuid 848dfd18-394f-4245-9bf2-06451610466e)
@@ -3936,10 +3820,6 @@
     (stroke (width 0) (type default))
     (uuid bc091126-040f-4985-b1de-f9f9b2c1120e)
   )
-  (wire (pts (xy 542.925 95.123) (xy 510.413 95.123))
-    (stroke (width 0) (type default))
-    (uuid bc8f5182-4b60-496b-89d4-4538f253f987)
-  )
   (wire (pts (xy 241.427 305.181) (xy 256.667 305.181))
     (stroke (width 0) (type default))
     (uuid bd357639-3016-4806-9061-8aa5efb4a8ca)
@@ -4076,6 +3956,10 @@
     (stroke (width 0) (type solid))
     (uuid ca3ebbbb-02a0-4a71-ad6d-e4df5742bb45)
   )
+  (wire (pts (xy 171.704 271.653) (xy 219.583 271.653))
+    (stroke (width 0) (type default))
+    (uuid cac8d315-0ae3-408b-8a74-fc59f14acf4d)
+  )
   (wire (pts (xy 86.614 252.222) (xy 101.854 252.222))
     (stroke (width 0) (type default))
     (uuid caeda8f8-0231-4063-9629-9c5cda2a1f46)
@@ -4132,13 +4016,13 @@
     (stroke (width 0) (type default))
     (uuid cfd5ed3d-ce6f-43ee-b99b-e4089c4ae7ba)
   )
-  (wire (pts (xy 512.445 100.203) (xy 510.413 100.203))
-    (stroke (width 0) (type default))
-    (uuid d024afd6-e024-49c0-b232-bde306adf7f4)
-  )
   (wire (pts (xy 146.939 249.682) (xy 48.514 249.682))
     (stroke (width 0) (type default))
     (uuid d03680c5-0180-45b6-a7d8-689003f1a613)
+  )
+  (wire (pts (xy 756.412 281.051) (xy 756.412 287.655))
+    (stroke (width 0) (type default))
+    (uuid d076fbd4-645b-4f3e-8a89-f46694712278)
   )
   (wire (pts (xy 710.057 242.951) (xy 809.752 242.951))
     (stroke (width 0) (type default))
@@ -4304,10 +4188,6 @@
     (stroke (width 0) (type default))
     (uuid ec31a969-219a-4112-819a-f41a6ed98320)
   )
-  (wire (pts (xy 490.093 95.123) (xy 484.505 95.123))
-    (stroke (width 0) (type default))
-    (uuid ec753c1c-033c-47d2-a842-45c8e5fe8936)
-  )
   (wire (pts (xy 241.427 289.941) (xy 256.667 289.941))
     (stroke (width 0) (type default))
     (uuid ed152026-cc0f-4759-b503-cfde356b9155)
@@ -4468,10 +4348,6 @@
     (effects (font (size 2.9972 2.9972)) (justify right bottom))
     (uuid 33f23a40-dabb-4fad-90a0-233dff7aa702)
   )
-  (text "WS2812 Driver" (at 342.138 80.518 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 344855fa-4a4f-48a0-a5d2-b12ac9eb2989)
-  )
   (text "HAPTIC" (at 232.029 117.729 0)
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
     (uuid 3d5bbbe3-c04c-4e5a-9182-ccab2400adeb)
@@ -4488,10 +4364,6 @@
     (effects (font (size 2.9972 2.9972)) (justify right bottom))
     (uuid 59d3dc31-287c-41e7-8fa3-074560f0d5d8)
   )
-  (text "WS2812 Driver" (at 513.588 75.692 0)
-    (effects (font (size 2.54 2.54)) (justify right bottom))
-    (uuid 66b0235f-544f-4a56-91bf-877ee35f8951)
-  )
   (text "FPC SPI CONNECTOR\n" (at 638.937 205.613 0)
     (effects (font (size 2.9972 2.9972)) (justify right bottom))
     (uuid 7263603f-498d-45e4-83ec-ee568ceb15e2)
@@ -4504,10 +4376,6 @@
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
     (uuid 8285ea70-039a-4e5c-8931-12f616c5bdb1)
   )
-  (text "3v3 -> 5V logic shift" (at 365.506 103.759 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 8b21f971-2728-453e-beaf-56f0a89a6a81)
-  )
   (text "MCU" (at 565.785 69.215 0)
     (effects (font (size 2.9972 2.9972)) (justify right bottom))
     (uuid 8f827d2e-a998-4d1d-9f81-7b428632e0a6)
@@ -4519,10 +4387,6 @@
   (text "RIGHT" (at 604.266 57.912 0)
     (effects (font (size 20 20) (thickness 6) bold) (justify left bottom))
     (uuid 97d2db5e-0959-44a5-aabd-c9da33935a80)
-  )
-  (text "3v3 -> 5V logic shift" (at 490.22 98.933 0)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid a80f23b0-0a21-46ee-bb73-5f96f7b777d1)
   )
   (text "Power" (at 289.941 147.447 0)
     (effects (font (size 2.9972 2.9972)) (justify left bottom))
@@ -4604,13 +4468,6 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "VCC" (shape input) (at 512.445 100.203 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 07b9ee37-0f83-4a3d-a24f-1b2d20a3e668)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 518.4867 100.2824 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "row_4_L" (shape input) (at 143.383 121.031 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 07ddffa0-2716-437a-b8f5-245e4cf5b706)
@@ -4681,6 +4538,13 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
+  (global_label "row_4_L" (shape input) (at 312.801 99.949 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 0f91751d-06a7-4b7c-94b8-f74f53fc82f2)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 323.1453 99.949 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+  )
   (global_label "TX_L" (shape input) (at 196.977 82.931 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 104a5dc1-feae-4503-8a13-1a6ffc4ac4ae)
@@ -4693,13 +4557,6 @@
     (uuid 11f27ecf-bedb-4161-b647-43fbf6d0f3f7)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 689.483 138.4631 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "GND_L" (shape input) (at 355.473 110.109 270) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 15ca503f-0b15-4bb7-9aa8-bde0d0ad925f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 355.473 118.881 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "RAW_L" (shape input) (at 335.534 267.208 180) (fields_autoplaced)
@@ -4727,13 +4584,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 1f704583-4045-47c8-b720-78357a5bca71)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 228.6273 170.561 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "Backlight" (shape input) (at 484.505 95.123 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 20f42052-c377-4c29-bc58-af8abd54680e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 472.7698 95.123 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -4982,10 +4832,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "RAW" (shape input) (at 497.713 84.963 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 57713809-3571-4887-bc6f-742d50ffea99)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 497.7924 78.7399 90)
+  (global_label "row_4" (shape input) (at 542.925 95.123 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 55a0ed68-a070-413c-aed7-7104f5706c06)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 534.5764 95.123 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -5339,20 +5189,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "VCC_L" (shape input) (at 343.281 105.029 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 88a3d3e5-342c-4656-ae08-db60f6bc6c89)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 334.7509 105.029 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "VCC_L" (shape input) (at 352.933 89.789 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 89aa746c-9edc-422a-9587-851e273b170e)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 352.933 81.2589 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "SDA_L" (shape input) (at 335.534 262.128 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 8ba78923-eda9-4c2b-b158-a9ef3aa6eb13)
@@ -5514,24 +5350,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "RAW_L" (shape input) (at 358.013 89.789 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ab816bd5-e2ec-4a5c-9d38-90d78b3df139)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 358.013 81.0775 90)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "TFT_BL_L" (shape input) (at 301.371 77.089 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ac9da36f-a17a-441d-a421-b993962086bd)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 312.562 77.089 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "Backlight_L" (shape input) (at 371.221 99.949 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid ad81894b-7122-4aac-8f27-61db31ee7a6c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 384.9519 99.949 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -5588,13 +5410,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid b5e34833-9f28-4bf8-a2ee-11a5831f79b0)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 216.5684 87.249 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "Backlight_L" (shape input) (at 207.137 271.653 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b5e8d748-0139-434e-9626-a9f3171e3d4f)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 193.4061 271.653 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -5687,13 +5502,6 @@
     (uuid c0a0d684-b808-4398-a4ab-52b9e942cda7)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 357.251 160.5069 90)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "VCC" (shape input) (at 502.793 84.963 90) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c12c07cb-d1fd-49c9-9ed8-5d710851bec4)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 502.8724 78.9213 90)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "RX_L" (shape input) (at 277.241 87.249 180) (fields_autoplaced)
@@ -5941,13 +5749,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "row_4_L" (shape input) (at 288.671 77.089 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid ed70aa32-7c96-43b0-bf74-637acfe35b53)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 278.3267 77.089 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "col2_L" (shape output) (at 189.103 136.271 270) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ef3d4642-650e-44fa-8060-627e7da31405)
@@ -6011,13 +5812,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "Backlight" (shape input) (at 688.975 287.655 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f739dbf4-6a51-432b-a8b5-af2a9a0e77f8)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 700.7102 287.655 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
   (global_label "MISO_L" (shape input) (at 312.801 107.569 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid f872305f-ad04-4aa8-9ae8-2dd61056dc5d)
@@ -6030,13 +5824,6 @@
     (uuid f87a037f-1e1d-4459-95bc-09a0d35be1ff)
     (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 226.934 183.261 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "row_4" (shape input) (at 567.055 72.263 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid f96dd9a1-83fd-414b-aa74-088aa15c1413)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 575.4036 72.263 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
   (global_label "GND" (shape input) (at 578.485 87.503 0) (fields_autoplaced)
@@ -6094,7 +5881,7 @@
     (pin "3" (uuid 00d1ddb3-e1b9-4e8b-a1d3-056f1a48786f))
     (pin "4" (uuid b5c6361a-eb79-44c5-9f1c-80e99a2111af))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D81") (unit 1)
         )
@@ -6128,7 +5915,7 @@
     (pin "1" (uuid 6e32853d-3d5c-4100-ad36-33ebf56c3595))
     (pin "2" (uuid 65037889-0508-401b-b7ef-279b9fb71494))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW17") (unit 1)
         )
@@ -6171,7 +5958,7 @@
     (pin "4" (uuid 3b359f1c-9292-4641-a65b-7aee8a63c190))
     (pin "5" (uuid a75f6fa2-27e3-4890-8814-09d3a62d8018))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U3") (unit 1)
         )
@@ -6211,7 +5998,7 @@
     (pin "1" (uuid c9885ccc-8b7e-4581-b16d-b2ce232f2a2f))
     (pin "2" (uuid 86d5ea8d-6c40-4a08-9500-ae3b76d34b33))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D5") (unit 1)
         )
@@ -6251,7 +6038,7 @@
     (pin "1" (uuid de0d529d-98d7-4434-bd28-9d4e7d54cf30))
     (pin "2" (uuid 063475c3-c33f-46be-9007-960651198623))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D19") (unit 1)
         )
@@ -6285,7 +6072,7 @@
     (pin "1" (uuid d1c9033e-b26d-41dc-bd69-b06808d7d6d4))
     (pin "2" (uuid 144c3af5-4def-43c9-8a47-d7c9dffe0ff2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW6") (unit 1)
         )
@@ -6325,7 +6112,7 @@
     (pin "7" (uuid 4349a8b4-e8ba-4365-9d34-5e673d773181))
     (pin "8" (uuid 524dbe15-6a58-4ff5-b628-7f98ebbd370e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J10") (unit 1)
         )
@@ -6360,7 +6147,7 @@
     (pin "1" (uuid 27fef91e-34f0-4bb8-9fdb-d2de5d42f5ef))
     (pin "2" (uuid 5d84a94d-4c50-45b3-a0e6-b98f0af71019))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D47") (unit 1)
         )
@@ -6402,7 +6189,7 @@
     (pin "3" (uuid cd9e2233-19d7-4145-9bc0-252877b1a0b2))
     (pin "4" (uuid fa44dac5-2e7a-47e1-9cbc-b4b56a2d6ca7))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D25") (unit 1)
         )
@@ -6436,7 +6223,7 @@
     (pin "3" (uuid a92d15ff-6c5e-416a-b68f-a9a52e2c8ab6))
     (pin "4" (uuid c52e33bc-0b41-4e6b-b3e7-26fa86a093a2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D69") (unit 1)
         )
@@ -6476,7 +6263,7 @@
     (pin "7" (uuid b26ca893-3151-4e0a-bc8d-d2020e6a2e1f))
     (pin "8" (uuid dae0d681-3da7-4dd1-bd80-f68c1f467c9d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J9") (unit 1)
         )
@@ -6501,7 +6288,7 @@
     )
     (pin "1" (uuid b99415da-3ab2-4f7a-bb9c-d61e863c4229))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR021") (unit 1)
         )
@@ -6543,7 +6330,7 @@
     (pin "3" (uuid 3b6ede84-bef1-4af0-84d1-e697b74a17f0))
     (pin "4" (uuid 968d4f6c-e836-4677-a6bc-31dcea99ed91))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D88") (unit 1)
         )
@@ -6586,7 +6373,7 @@
     (pin "8" (uuid 7d5ad1d2-bc42-42c1-a743-d5c87a5549ec))
     (pin "9" (uuid e80c9c04-006f-4b12-b552-16a47cf2d8ea))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U4") (unit 1)
         )
@@ -6620,7 +6407,7 @@
     (pin "1" (uuid 6f5c02b2-f255-4384-9bc5-d7fd3b73802e))
     (pin "2" (uuid f4b24ce2-55a8-4d4b-bb91-9802ef625e3c))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW32") (unit 1)
         )
@@ -6684,7 +6471,7 @@
     (pin "8" (uuid 9fb94d5a-49bb-48b2-b38b-cf8bbbf6c3a5))
     (pin "9" (uuid a2c11321-6ddd-4583-963d-72c1bd02273e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U7") (unit 1)
         )
@@ -6726,7 +6513,7 @@
     (pin "3" (uuid 9a787a03-0e24-4233-9a8b-e3f79665b99e))
     (pin "4" (uuid 2f9c1ad2-b9c6-4806-bc5d-d4cab2b75c00))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D94") (unit 1)
         )
@@ -6755,7 +6542,7 @@
     (pin "1" (uuid b791523c-e069-4466-887d-d1759ade71b6))
     (pin "2" (uuid e78a0d2f-9c90-4b85-95e9-94bb15bf9019))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW15") (unit 1)
         )
@@ -6789,7 +6576,7 @@
     (pin "1" (uuid 4c0e3921-fa97-4ae8-9d2e-86252f63f578))
     (pin "2" (uuid 8334d415-905d-4443-a099-d42af0149700))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW23") (unit 1)
         )
@@ -6823,7 +6610,7 @@
     (pin "1" (uuid 384f99ec-1864-4e59-8efe-097a3bf71659))
     (pin "2" (uuid 90a6982f-a4a9-44d0-9204-594d90752d5c))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW3") (unit 1)
         )
@@ -6862,7 +6649,7 @@
     (pin "3" (uuid e5c23ec8-2b0d-488c-8355-54fbda521433))
     (pin "4" (uuid 397e7c3d-794d-4a69-ae09-e1be1da7508b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D70") (unit 1)
         )
@@ -6902,7 +6689,7 @@
     (pin "1" (uuid 5c1bbd90-ecd8-4b9d-8e58-022d9caa3c11))
     (pin "2" (uuid 4d4955d5-e388-4042-9ea6-910d6995ecab))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C1") (unit 1)
         )
@@ -6942,7 +6729,7 @@
     (pin "1" (uuid f3c22cbb-fc83-4253-8188-44bad489702c))
     (pin "2" (uuid f90c30b4-5a4d-4ef2-8737-73b5eacccbfb))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "R3") (unit 1)
         )
@@ -6976,7 +6763,7 @@
     (pin "1" (uuid 8ebd50e8-7548-4b2f-9509-81a3d2190442))
     (pin "2" (uuid d94f7864-0300-413f-acb7-a90415c996f5))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW37") (unit 1)
         )
@@ -7018,7 +6805,7 @@
     (pin "3" (uuid d6ed9afe-0cae-468d-b774-311266599bf3))
     (pin "4" (uuid ce8db696-c2e0-46ce-9e01-df1e3aa8fdb5))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D51") (unit 1)
         )
@@ -7043,7 +6830,7 @@
     )
     (pin "1" (uuid 245442fb-cddc-424c-9b87-588f5044e789))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR015") (unit 1)
         )
@@ -7081,7 +6868,7 @@
     (pin "5" (uuid 665d4b2f-acc6-4275-aaba-70fb3ef7e7d6))
     (pin "6" (uuid 6fda67df-0e1e-478b-a910-a56f0657e1d6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "HAT1") (unit 1)
         )
@@ -7120,7 +6907,7 @@
     (pin "3" (uuid 86074b96-347b-4c65-b9b8-f92fd6ef66ba))
     (pin "4" (uuid 9b339a8c-43b9-4296-9ad3-d6f8227f4be2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D30") (unit 1)
         )
@@ -7154,7 +6941,7 @@
     (pin "1" (uuid 608bec53-d0d0-44be-9830-bddbb928d93a))
     (pin "2" (uuid 558cff02-f684-4a9d-a610-cafd03f79544))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW11") (unit 1)
         )
@@ -7188,7 +6975,7 @@
     (pin "1" (uuid 7ba0d150-e136-4035-a4ea-9554adfcc290))
     (pin "2" (uuid fc6dd5d5-0570-43c3-b4a8-c6034a08c99d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW29") (unit 1)
         )
@@ -7230,7 +7017,7 @@
     (pin "3" (uuid abbd02fa-af09-467b-b99c-ed1d62c273b6))
     (pin "4" (uuid c1dd8303-f0c5-4342-9f3a-ba989d958280))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D38") (unit 1)
         )
@@ -7268,7 +7055,7 @@
     (pin "4" (uuid 433fc915-20db-4596-9369-0bd9385d6af0))
     (pin "5" (uuid ab30e7e7-566e-41eb-ac42-e2a2fe7ff84d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U8") (unit 1)
         )
@@ -7276,53 +7063,6 @@
       (project "Zazu"
         (path "/eaef1172-3351-417c-bfc4-74a598f141cb"
           (reference "U3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Logic_LevelTranslator:SN74LVC1T45DRL") (at 355.473 99.949 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2aa59482-8fa2-4189-82d1-7bdcc557f0ec)
-    (property "Reference" "U2" (at 348.488 91.059 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "74LVC1T45" (at 363.728 91.059 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 355.473 111.379 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 332.613 116.459 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C139353" (at 355.473 99.949 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN " "SN74LVC1T45QDCKRQ1" (at 355.473 99.949 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Texas Instruments" (at 355.473 99.949 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "SC-70-6" (at 355.473 99.949 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1c3e6b41-5ba6-4369-9386-0201d5ac0565))
-    (pin "2" (uuid d94e75c3-2396-436b-b9b3-db333ca74af9))
-    (pin "3" (uuid 5e6e2e76-80c6-4237-b970-8667c0ff22a7))
-    (pin "4" (uuid 23c96443-7d23-4569-958c-e8e9f91cc995))
-    (pin "5" (uuid 42fc81ee-bf28-4eda-afec-458e1b111248))
-    (pin "6" (uuid bce26f2d-725d-4e04-b389-706f02ff77bc))
-    (instances
-      (project "wired-split"
-        (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
-          (reference "U2") (unit 1)
-        )
-      )
-      (project "Zazu"
-        (path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-          (reference "U6") (unit 1)
         )
       )
     )
@@ -7355,7 +7095,7 @@
     (pin "1" (uuid fb084d44-2d95-4ef6-b542-749507e03f5a))
     (pin "2" (uuid 14d338a5-446d-40fe-95c5-38f949b87e00))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C8") (unit 1)
         )
@@ -7395,7 +7135,7 @@
     (pin "1" (uuid 814e60e5-cb73-49e9-b0eb-ed25128724d8))
     (pin "2" (uuid 02f5881a-dee0-4026-b699-58a1ab848b4e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D46") (unit 1)
         )
@@ -7433,7 +7173,7 @@
     (pin "5" (uuid 4f922d8e-04a4-4cb4-a130-d2c914bf55f4))
     (pin "6" (uuid c67c310a-8107-4719-93ce-4b66e01c34d4))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "HAT2") (unit 1)
         )
@@ -7473,7 +7213,7 @@
     (pin "1" (uuid d51599f9-6ccb-4f55-910a-0a87550fb3be))
     (pin "2" (uuid 06f4f2db-5caa-49e1-be30-793a7f98f0dd))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D60") (unit 1)
         )
@@ -7515,7 +7255,7 @@
     (pin "3" (uuid 8d3fc405-ebeb-4455-88c1-eaa6e909e0b4))
     (pin "4" (uuid 7513dfd1-6dff-4656-a6dc-59844f9cd8f3))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D97") (unit 1)
         )
@@ -7550,7 +7290,7 @@
     (pin "1" (uuid cc167c80-fb76-4179-b35e-b964efb6f5a4))
     (pin "2" (uuid 547a2dd5-3004-411f-8798-77d2f9f4d4c4))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "R6") (unit 1)
         )
@@ -7580,7 +7320,7 @@
     )
     (pin "1" (uuid 13597585-e7c2-425f-a35e-a5de4ed84923))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR019") (unit 1)
         )
@@ -7619,7 +7359,7 @@
     (pin "3" (uuid b4bd61de-67cb-4c9f-a2ce-2e5ac10c4d4d))
     (pin "4" (uuid d40d9230-840d-4730-89eb-fcd46a488697))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D75") (unit 1)
         )
@@ -7653,7 +7393,7 @@
     (pin "1" (uuid 6b38748a-653a-4e52-9f09-d41095c645c5))
     (pin "2" (uuid c1545afd-8af4-4650-919a-e5f2d6b5e7b8))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW31") (unit 1)
         )
@@ -7695,7 +7435,7 @@
     (pin "3" (uuid 8385288a-f31b-4def-8262-ea141e7fdf68))
     (pin "4" (uuid d65dae6c-0504-416d-82a0-e6e59b1d957f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D98") (unit 1)
         )
@@ -7724,7 +7464,7 @@
     (pin "1" (uuid 11b03619-c853-4126-8039-a608fb035a01))
     (pin "2" (uuid 42f21a30-3e35-42c0-b6ad-9fe04a0e6617))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW16") (unit 1)
         )
@@ -7758,7 +7498,7 @@
     (pin "1" (uuid ac032307-8e8d-4b9b-9a96-23a7e2ab466f))
     (pin "2" (uuid 09020fc2-3f92-4684-8692-1ba33735d606))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW9") (unit 1)
         )
@@ -7766,36 +7506,6 @@
       (project "Zazu"
         (path "/eaef1172-3351-417c-bfc4-74a598f141cb"
           (reference "SW8") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 500.253 105.283 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 39f38917-a121-4d1c-adc3-133a14d407e4)
-    (property "Reference" "#PWR020" (at 500.253 111.633 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 500.253 109.728 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 500.253 105.283 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 500.253 105.283 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fe884df2-ebc1-412d-80ae-cfc1e68ba6f3))
-    (instances
-      (project "wired-split"
-        (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
-          (reference "#PWR020") (unit 1)
-        )
-      )
-      (project "Zazu"
-        (path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-          (reference "#PWR0106") (unit 1)
         )
       )
     )
@@ -7827,7 +7537,7 @@
     (pin "3" (uuid 3aad73f2-6cd2-4a49-ab7e-5683ff9eea26))
     (pin "4" (uuid 9b399fbb-f4f2-4fe7-b667-211ae55c81ec))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D76") (unit 1)
         )
@@ -7866,7 +7576,7 @@
     (pin "3" (uuid d8dc3565-9154-4964-a8ed-eaa7c6e45793))
     (pin "4" (uuid 9a017316-e621-48dd-baf7-4297704c97c4))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D24") (unit 1)
         )
@@ -7914,7 +7624,7 @@
     (pin "8" (uuid f9f69a37-c113-4b31-8362-97c88d681ce7))
     (pin "9" (uuid 731cac0f-f2d5-4dc4-8b39-6bb11d2ab300))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U10") (unit 1)
         )
@@ -7948,7 +7658,7 @@
     (pin "1" (uuid 551cca40-bcea-43d3-9b38-2a12c2529d4f))
     (pin "2" (uuid 2e294fbb-7b4c-4c07-a772-6c10ef9bc36e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW36") (unit 1)
         )
@@ -7990,7 +7700,7 @@
     (pin "3" (uuid 774aaec8-ed07-4cd0-a464-833d0ba28874))
     (pin "4" (uuid ae405f89-d78a-42d9-b342-ce368aef2d62))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D99") (unit 1)
         )
@@ -8024,7 +7734,7 @@
     (pin "3" (uuid 12200749-2c8a-4e55-940c-62fa1635aa69))
     (pin "4" (uuid ed54a375-374f-4421-ba45-b067824eb976))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D62") (unit 1)
         )
@@ -8066,7 +7776,7 @@
     (pin "3" (uuid ccab6563-8fe4-422f-89c5-226fd65ece9c))
     (pin "4" (uuid c1dc4ae3-51e3-46a6-8a04-df2e6278499d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D91") (unit 1)
         )
@@ -8101,7 +7811,7 @@
     (pin "1" (uuid 9a9197af-b97e-42bf-b938-963fb33af7b8))
     (pin "2" (uuid abccf585-44a2-49f1-9012-5432900c7642))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D85") (unit 1)
         )
@@ -8141,7 +7851,7 @@
     (pin "1" (uuid 998dde7f-81cd-4399-b766-a66f23bfa764))
     (pin "2" (uuid 10280cd8-b852-43fc-97c8-878383002e80))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D71") (unit 1)
         )
@@ -8181,7 +7891,7 @@
     (pin "1" (uuid 93d89624-fc8b-470e-91f5-628a865cc50a))
     (pin "2" (uuid 725f24c5-13e4-440f-b0c5-f303db05ad2c))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C7") (unit 1)
         )
@@ -8221,7 +7931,7 @@
     (pin "1" (uuid 12fb36ae-a949-4723-954e-dd2addedd7b7))
     (pin "2" (uuid 1527a064-390b-466b-94e3-7bb6a15f646c))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D15") (unit 1)
         )
@@ -8263,7 +7973,7 @@
           (reference "SW36") (unit 1)
         )
       )
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW39") (unit 1)
         )
@@ -8300,7 +8010,7 @@
           (reference "SW36") (unit 1)
         )
       )
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW21") (unit 1)
         )
@@ -8329,7 +8039,7 @@
     (pin "1" (uuid 26f28c96-33cf-4c45-ad66-e12a136467f3))
     (pin "2" (uuid 0aeffb6e-a6ed-4420-bf47-34d999d472e6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW27") (unit 1)
         )
@@ -8368,7 +8078,7 @@
     (pin "3" (uuid 5efd7e64-8601-4c24-8416-66b5548b50a4))
     (pin "4" (uuid d8cc6088-3ef9-4fac-8880-1b764d491247))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D63") (unit 1)
         )
@@ -8405,7 +8115,7 @@
     (pin "4" (uuid 618002ee-c4d0-491d-854f-ab40404a7f6c))
     (pin "5" (uuid e5ee9449-0aac-478e-a972-ca7781723f2f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U5") (unit 1)
         )
@@ -8445,7 +8155,7 @@
     (pin "1" (uuid 6c289aa6-9d03-4e56-9e8e-a9c1200955cf))
     (pin "2" (uuid 6fdc5b5f-81c1-4cad-b815-962a3d3536fe))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D78") (unit 1)
         )
@@ -8495,7 +8205,7 @@
     (pin "8" (uuid 6b31ef00-94b1-4810-aa37-9ee350dc8040))
     (pin "9" (uuid e9ed367f-e8d6-4dec-8f60-ff7ec80ec0a7))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J4") (unit 1)
         )
@@ -8529,7 +8239,7 @@
     (pin "3" (uuid bb8bf0bb-1a17-49f6-aa11-b08f17ef7579))
     (pin "4" (uuid 2a2ec5fb-0284-4135-b84b-4f1fc0396621))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D28") (unit 1)
         )
@@ -8568,7 +8278,7 @@
     (pin "3" (uuid eef6fdf0-6cdd-424c-bb96-a7c646cb2f55))
     (pin "4" (uuid cdd5ffe4-36ce-4a90-b323-05bde3eacc3d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D54") (unit 1)
         )
@@ -8608,7 +8318,7 @@
     (pin "1" (uuid d965b780-fa7d-4ccf-ae54-5cbfbb9cc192))
     (pin "2" (uuid 116c3f04-a7b9-4ca1-b2dc-89504b31b7c6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D18") (unit 1)
         )
@@ -8647,7 +8357,7 @@
     (pin "3" (uuid 06edb313-f9bf-44ed-b7d4-11939d986194))
     (pin "4" (uuid 8c084744-c5b6-4965-826e-2e01a7960b49))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D40") (unit 1)
         )
@@ -8681,7 +8391,7 @@
     (pin "1" (uuid 521d3d33-5698-4fd7-ab7c-017dd05aed09))
     (pin "2" (uuid b83ee92d-5d39-41b8-a11e-c2eb43e4d2e2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW14") (unit 1)
         )
@@ -8721,7 +8431,7 @@
     (pin "1" (uuid d5d99bf2-919f-4544-8ba5-ab1e43344766))
     (pin "2" (uuid 6864d6a0-4b07-44b0-944c-0d68503d7d0e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D7") (unit 1)
         )
@@ -8761,7 +8471,7 @@
     (pin "1" (uuid 103dbfc7-1342-48a9-aeac-e06e1633ec6e))
     (pin "2" (uuid b49d1013-0174-4894-a6bd-b14c2eb72bf4))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D43") (unit 1)
         )
@@ -8800,7 +8510,7 @@
     (pin "3" (uuid 1de42996-db3a-46b7-8aec-ced27191ea91))
     (pin "4" (uuid fede6748-4b39-4764-9d7e-a634afa3382a))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D33") (unit 1)
         )
@@ -8830,7 +8540,7 @@
     )
     (pin "1" (uuid cfbeaff0-d93b-4fba-bda7-a38225f9b32d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR013") (unit 1)
         )
@@ -8870,7 +8580,7 @@
     (pin "1" (uuid 96291b64-f9fc-40af-91ef-159164bace75))
     (pin "2" (uuid 635dae02-ab7d-41f3-96d2-92d0f84a2ca3))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D48") (unit 1)
         )
@@ -8900,7 +8610,7 @@
     )
     (pin "1" (uuid d5626eca-fd76-4a39-a28b-d700ebb65a48))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR016") (unit 1)
         )
@@ -8939,7 +8649,7 @@
     (pin "3" (uuid 313fefc9-3895-42ea-8918-cbd5a7bb76b5))
     (pin "4" (uuid d7e90287-9e4b-4ecf-a148-b9a7a63395ba))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D56") (unit 1)
         )
@@ -8981,7 +8691,7 @@
     (pin "3" (uuid ab6fa4e2-773a-4400-bce3-6e5a1cba403b))
     (pin "4" (uuid 5e5a67d4-cd15-4845-9277-6c092e1d544d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D52") (unit 1)
         )
@@ -9016,7 +8726,7 @@
     (pin "1" (uuid d8051bf2-205b-48d4-98ad-ff3b5e0b5998))
     (pin "2" (uuid 0568e4db-2594-4a9b-bae0-85f1faef523f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D1") (unit 1)
         )
@@ -9058,7 +8768,7 @@
     (pin "3" (uuid f4632ac9-ca9b-49f9-a99f-9c4c6f68a74d))
     (pin "4" (uuid e23fb15c-1749-46c5-8bfa-6d8334d0cd35))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D100") (unit 1)
         )
@@ -9095,7 +8805,7 @@
     (pin "3" (uuid ed52dd2a-3746-47a8-a3a7-7e5ba65f263f))
     (pin "4" (uuid a5e0b43e-f765-4f95-a6c7-ef223044b83b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D87") (unit 1)
         )
@@ -9132,7 +8842,7 @@
     (pin "3" (uuid 73729661-0af7-4c85-8f3e-c7a9a32eb270))
     (pin "4" (uuid 0b237550-7624-44e2-890b-f94902b93f40))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D50") (unit 1)
         )
@@ -9169,7 +8879,7 @@
     (pin "3" (uuid c0f4a15b-aeb7-4271-8e95-0aab9231f457))
     (pin "4" (uuid 22684c80-fa85-46e0-8b2f-82da06067570))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D37") (unit 1)
         )
@@ -9206,7 +8916,7 @@
     (pin "3" (uuid 593b1761-9304-43f1-a2b8-66b228eb7cb7))
     (pin "4" (uuid eeb7b6fb-8725-45de-a93f-97edf150faf6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D92") (unit 1)
         )
@@ -9251,7 +8961,7 @@
     (pin "8" (uuid f55fb9cb-779a-4f87-8f2e-196b6df4deee))
     (pin "9" (uuid 3cde3ee7-254c-4d76-8f01-a102b123c422))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J8") (unit 1)
         )
@@ -9286,7 +8996,7 @@
     (pin "1" (uuid e8d07d81-9847-4e2e-ad74-d3a88ddb1fe5))
     (pin "2" (uuid 8fea5500-9f62-4821-866c-65b610f0ceb3))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D53") (unit 1)
         )
@@ -9316,7 +9026,7 @@
     )
     (pin "1" (uuid 6590341a-a89e-4463-8b82-f94dada86b38))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR017") (unit 1)
         )
@@ -9358,7 +9068,7 @@
     (pin "3" (uuid 514255c2-fd5e-42f0-8472-f2d77af7645d))
     (pin "4" (uuid 2846e31f-5da8-4c5f-a375-29efd011797d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D95") (unit 1)
         )
@@ -9387,7 +9097,7 @@
     (pin "1" (uuid 92e320a0-d673-474c-9159-a6de5eb4db1d))
     (pin "2" (uuid 3bb538fa-672f-42e5-99fa-2eeffd8fe4d5))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW33") (unit 1)
         )
@@ -9417,7 +9127,7 @@
     )
     (pin "1" (uuid fd6267af-cf40-43e2-aaac-ceaec9828112))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR018") (unit 1)
         )
@@ -9425,53 +9135,6 @@
       (project "Zazu"
         (path "/eaef1172-3351-417c-bfc4-74a598f141cb"
           (reference "#PWR09") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Logic_LevelTranslator:SN74LVC1T45DRL") (at 500.253 95.123 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7c1f533e-6bc1-4514-a24d-a003f5ae7e36)
-    (property "Reference" "U9" (at 507.238 86.233 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "74LVC1T45" (at 491.998 86.233 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6" (at 500.253 106.553 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 523.113 111.633 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "LCSC" "C139353" (at 500.253 95.123 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN " "SN74LVC1T45QDCKRQ1" (at 500.253 95.123 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Manufacturer" "Texas Instruments" (at 500.253 95.123 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Package" "SC-70-6" (at 500.253 95.123 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f3c96391-9c04-4f0d-a9a7-47f977ea4140))
-    (pin "2" (uuid 2d37b6e1-68ad-4275-b520-79ade0b1cc4d))
-    (pin "3" (uuid 15179302-9e9f-4e4d-9973-ab763a124cfd))
-    (pin "4" (uuid 2f37377f-9177-4c22-af5c-dab414d602d9))
-    (pin "5" (uuid 0a2fa941-9175-4333-b2d9-da71a57616f1))
-    (pin "6" (uuid 72dfa80e-e98f-458e-96f5-4cd94359fef2))
-    (instances
-      (project "wired-split"
-        (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
-          (reference "U9") (unit 1)
-        )
-      )
-      (project "Zazu"
-        (path "/eaef1172-3351-417c-bfc4-74a598f141cb"
-          (reference "U6") (unit 1)
         )
       )
     )
@@ -9494,7 +9157,7 @@
     )
     (pin "1" (uuid 553a50a2-78ef-456d-83a6-741371de4450))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR014") (unit 1)
         )
@@ -9528,7 +9191,7 @@
     (pin "1" (uuid a8b4cd55-d0bc-488c-978c-0adbde6a8ade))
     (pin "2" (uuid 01da241c-3abc-4bce-8ca1-7be5dfb6bdd3))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW22") (unit 1)
         )
@@ -9568,7 +9231,7 @@
     (pin "1" (uuid d43ebb01-f553-4e49-a778-269f8302d4b4))
     (pin "2" (uuid dbb9c23a-c95c-4251-8b81-a453ff341cae))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D10") (unit 1)
         )
@@ -9608,7 +9271,7 @@
     (pin "7" (uuid 434c627d-b2fe-4abe-a79f-c63328f0afec))
     (pin "8" (uuid 69ca6cbe-6fd8-462b-834e-f5616ad690f8))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J7") (unit 1)
         )
@@ -9648,7 +9311,7 @@
     (pin "1" (uuid f5651587-eb67-46cb-b709-c372891fa63f))
     (pin "2" (uuid 5be1477f-fb63-46d2-8eea-7d020ed62165))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "R5") (unit 1)
         )
@@ -9687,7 +9350,7 @@
     (pin "3" (uuid f6ca8fce-9a3b-44e8-b5de-ef13393ff4b5))
     (pin "4" (uuid a75960ba-b4aa-4d06-bdce-89d7f8193933))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D55") (unit 1)
         )
@@ -9727,7 +9390,7 @@
     (pin "1" (uuid 08698d38-9a82-41ce-a2a3-8bd4616dbea3))
     (pin "2" (uuid e2c3ba48-4293-4ae8-8725-03343747ada3))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D14") (unit 1)
         )
@@ -9766,7 +9429,7 @@
     (pin "3" (uuid 97d69673-bfb1-4bcb-8e00-57a723aa19ad))
     (pin "4" (uuid e1b16f01-0c9c-4c19-b47c-7b6611e076f6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D32") (unit 1)
         )
@@ -9805,7 +9468,7 @@
     (pin "3" (uuid c2a8f2ca-556b-45f4-bc36-0500742082c0))
     (pin "4" (uuid 935555b1-a6f9-4679-a8fc-18966d247e65))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D22") (unit 1)
         )
@@ -9844,7 +9507,7 @@
     (pin "3" (uuid 6e26b7ac-2795-4665-9286-f8a463e452e8))
     (pin "4" (uuid c245988b-02a1-4c01-978a-452d9dfc6177))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D61") (unit 1)
         )
@@ -9884,7 +9547,7 @@
     (pin "1" (uuid 8fcb7167-f2db-4b04-b30a-8f231ec4c17c))
     (pin "2" (uuid 3f0adb38-e921-445e-b12d-3a58a463e4e3))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D57") (unit 1)
         )
@@ -9924,7 +9587,7 @@
     (pin "1" (uuid d0be306b-b4d6-4875-aa6d-b38b1d6c9d55))
     (pin "2" (uuid 8aaac676-f433-48ee-a545-37776f738227))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D3") (unit 1)
         )
@@ -9963,7 +9626,7 @@
     (pin "3" (uuid 5962d08d-b2cf-42db-8bb8-5fea8c9d7c23))
     (pin "4" (uuid bf007d51-4c4c-4a0a-8582-4d4834d444aa))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D84") (unit 1)
         )
@@ -10003,7 +9666,7 @@
     (pin "1" (uuid 9b9fb15f-62a3-430d-a5ef-d4b7117f69b7))
     (pin "2" (uuid a59ca982-0357-4102-a1a8-fe9b88ab93ef))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D11") (unit 1)
         )
@@ -10043,7 +9706,7 @@
     (pin "1" (uuid 45296ce0-8252-4fad-94d7-107574770ed2))
     (pin "2" (uuid 25c1d3ef-6a90-40b2-9f1b-0b0801bf8e27))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D89") (unit 1)
         )
@@ -10082,7 +9745,7 @@
     (pin "3" (uuid ee3fb8c2-87f2-4e38-a17b-1a99649e9ff8))
     (pin "4" (uuid 10b09807-627e-42f7-9c23-f407270eaad9))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D23") (unit 1)
         )
@@ -10122,7 +9785,7 @@
     (pin "1" (uuid cde3f4e5-bb70-4af3-9f04-827f3278bdf1))
     (pin "2" (uuid aac4999b-1249-45b5-982a-f3ccb8d6338e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "R2") (unit 1)
         )
@@ -10156,7 +9819,7 @@
     (pin "1" (uuid 329495dd-1c90-4b39-8e6e-c6a90346c37f))
     (pin "2" (uuid 36f5cee8-aad7-4eb2-a1d6-1f80d9c2177f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW12") (unit 1)
         )
@@ -10196,7 +9859,7 @@
     (pin "1" (uuid 5522b251-ca42-4855-b68b-435c2a1c3266))
     (pin "2" (uuid 0d7ff45b-2f33-443e-ba46-f6904d0dc046))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D2") (unit 1)
         )
@@ -10226,7 +9889,7 @@
     )
     (pin "1" (uuid 8d1fec94-02d1-41c9-bd84-04ebb5dda581))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR024") (unit 1)
         )
@@ -10266,7 +9929,7 @@
     (pin "1" (uuid f9396ae2-376f-421b-8fe5-4815c5c4561c))
     (pin "2" (uuid 2f393487-01c9-4d66-bb28-e996bdc2207b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D66") (unit 1)
         )
@@ -10306,7 +9969,7 @@
     (pin "1" (uuid 4858ae38-2ba4-47ef-8899-67d0054b7c57))
     (pin "2" (uuid d7d29bde-e852-46b8-bf47-4196fcc52c4c))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D6") (unit 1)
         )
@@ -10346,7 +10009,7 @@
     (pin "7" (uuid cf9801f3-736c-4297-af68-40f5b56c83a2))
     (pin "8" (uuid 52104645-a69d-476b-ba4a-5e69cb67843f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J1") (unit 1)
         )
@@ -10386,7 +10049,7 @@
     (pin "1" (uuid 1f650505-e6be-4679-9fc9-b997803cfe3f))
     (pin "2" (uuid 80211cd8-6236-44e8-a793-71435eb14a37))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D13") (unit 1)
         )
@@ -10426,7 +10089,7 @@
     (pin "1" (uuid 8e1673be-c037-4e56-9fef-48569b14ff26))
     (pin "2" (uuid 9c56bd05-5a5c-40ba-9e75-20804b229c35))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D59") (unit 1)
         )
@@ -10466,7 +10129,7 @@
     (pin "1" (uuid 7ae01558-1005-42be-a535-410ac22bac1d))
     (pin "2" (uuid c5b36de9-0d04-4ff8-97d3-a07a9e3c60ae))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D16") (unit 1)
         )
@@ -10506,7 +10169,7 @@
     (pin "1" (uuid a0bfb151-daa2-4aeb-97fa-8d254a60d7e1))
     (pin "2" (uuid d01ee2bc-9c7d-4dbf-b03c-ccccb7a0b8ef))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D58") (unit 1)
         )
@@ -10540,7 +10203,7 @@
     (pin "1" (uuid 3f823ed2-22ee-43f4-9b51-f208f831973d))
     (pin "2" (uuid acfee51e-37c6-4e2e-b9c6-1316437d920a))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW24") (unit 1)
         )
@@ -10590,7 +10253,7 @@
     (pin "8" (uuid 40ce789b-eae7-4c9e-b7a1-390777d9c7f6))
     (pin "9" (uuid eed0d85b-251b-4b40-b9e6-63f84f80848b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J3") (unit 1)
         )
@@ -10624,7 +10287,7 @@
     (pin "3" (uuid d0e1bd10-3c7d-4b7f-9d57-af4688f7db5d))
     (pin "4" (uuid 5c935d23-3672-43c3-a2f5-90b04b7df33b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D36") (unit 1)
         )
@@ -10674,7 +10337,7 @@
     (pin "8" (uuid 74744e38-f798-46b5-b0b7-6b4648ad708c))
     (pin "9" (uuid d6c8dbc5-9285-4f74-aa30-d95675b24c60))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J6") (unit 1)
         )
@@ -10708,7 +10371,7 @@
     (pin "3" (uuid 6d2410a2-e99a-4710-9dd1-9879be03a9a1))
     (pin "4" (uuid 5ff0cb66-3059-4fca-8257-7667d5f5e81b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D27") (unit 1)
         )
@@ -10747,7 +10410,7 @@
     (pin "3" (uuid 0bf58a9a-b0a8-4ccf-a14a-33ca4f866a2d))
     (pin "4" (uuid 6421691a-beec-4921-b531-c424b21ba148))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D39") (unit 1)
         )
@@ -10789,7 +10452,7 @@
     (pin "3" (uuid 6ee9c9ac-2307-4a85-adf1-a738af331009))
     (pin "4" (uuid 17a73870-f17a-4ab9-8b7d-0e3b75435cf7))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D41") (unit 1)
         )
@@ -10818,7 +10481,7 @@
     (pin "1" (uuid 367cd521-e878-4a11-a9e8-22e788b0abea))
     (pin "2" (uuid 2829ccdb-083d-4f1f-9bee-987e80c03d83))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW10") (unit 1)
         )
@@ -10858,7 +10521,7 @@
     (pin "1" (uuid d8bf51e0-9dac-4a13-9475-fc3b13bbb706))
     (pin "2" (uuid 7ccbff9e-9c98-40d8-b681-8f775fd4677f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C4") (unit 1)
         )
@@ -10898,7 +10561,7 @@
     (pin "1" (uuid 258abebc-53d8-4864-995a-90d603db0720))
     (pin "2" (uuid adaabddb-1fc4-40fa-a3e6-745ab2f46058))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW20") (unit 1)
         )
@@ -10937,7 +10600,7 @@
     (pin "3" (uuid 529cccb0-4f5c-481e-a535-c4009c3084cb))
     (pin "4" (uuid 6a3c3afc-8546-46b4-bb4a-6c03f62d26a6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D82") (unit 1)
         )
@@ -10977,7 +10640,7 @@
     (pin "1" (uuid 18953fbe-7434-4fc5-b53c-2505319f2e25))
     (pin "2" (uuid 2182e0c8-f2c1-4c7d-ab4c-1e5ae5331dc0))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D12") (unit 1)
         )
@@ -11017,7 +10680,7 @@
     (pin "1" (uuid ba85d919-6f1a-4937-849b-192525efbce9))
     (pin "2" (uuid a6a7e976-cb2c-4dea-a16c-34d732e684ef))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "R1") (unit 1)
         )
@@ -11057,7 +10720,7 @@
     (pin "1" (uuid da97b105-c745-4d4b-a3eb-caadd6c6f03c))
     (pin "2" (uuid 0bdb2f15-fbc1-45ea-b94e-1898ba02cfa2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D45") (unit 1)
         )
@@ -11097,7 +10760,7 @@
     (pin "1" (uuid 9cf5cd78-c6e5-47c1-a5b2-a06bc0b77a85))
     (pin "2" (uuid c15cc3ca-046d-4fa3-befe-6e92b9a9ba7a))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D17") (unit 1)
         )
@@ -11137,7 +10800,7 @@
     (pin "1" (uuid 0e1ad1cf-96d2-4471-a4e7-fcbbce5e0f76))
     (pin "2" (uuid c6bae2c5-7d5c-4170-beca-2c8f4c5bad34))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C5") (unit 1)
         )
@@ -11177,7 +10840,7 @@
     (pin "1" (uuid 5fd9afd8-90c0-470f-b528-af79f57e255b))
     (pin "2" (uuid a6871991-a76a-4cd3-8d53-954758be8629))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D8") (unit 1)
         )
@@ -11217,7 +10880,7 @@
     (pin "1" (uuid e81698ce-8183-4edf-9e99-662e15cf380d))
     (pin "2" (uuid 82e0a053-36e7-4940-b316-3b4552052274))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "R4") (unit 1)
         )
@@ -11251,7 +10914,7 @@
     (pin "1" (uuid f08fdd64-909c-4097-9bde-d886b72d1085))
     (pin "2" (uuid f2d69d1b-560c-4a7d-a443-aa5cbf007e3c))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW25") (unit 1)
         )
@@ -11290,7 +10953,7 @@
     (pin "3" (uuid 56ad65eb-92e8-472b-913b-edf64a4e920f))
     (pin "4" (uuid ba5be11a-ced4-44c3-8ebe-661b68e0316b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D83") (unit 1)
         )
@@ -11330,7 +10993,7 @@
     (pin "1" (uuid 453ef60b-c2d6-4513-b89b-7533fdf55347))
     (pin "2" (uuid 50f17262-ab41-43d1-af1e-242f0b2a8c2b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C6") (unit 1)
         )
@@ -11369,7 +11032,7 @@
     (pin "3" (uuid 1d0cd62d-c74c-4bb8-8bd0-2aedb1bfaf27))
     (pin "4" (uuid ef016c5c-27f4-4b36-81fa-7f76948eadb8))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D35") (unit 1)
         )
@@ -11405,7 +11068,7 @@
     (pin "C" (uuid 73828a2c-e8c7-4cb9-b5ee-e4244eaf1aeb))
     (pin "D" (uuid 52d50dd1-aa6c-4746-8cbd-d8d01f4d211e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J5") (unit 1)
         )
@@ -11439,7 +11102,7 @@
     (pin "1" (uuid 758b2df3-ac94-44d6-be46-ad2b356ca65b))
     (pin "2" (uuid 8abebdeb-8c49-48ef-b174-23f90c7a0654))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW13") (unit 1)
         )
@@ -11479,7 +11142,7 @@
     (pin "1" (uuid 43bfb30e-4a08-4b9b-9212-ec5d93f023ff))
     (pin "2" (uuid 3b56f736-0537-4384-af96-72fbfc0e76b6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D73") (unit 1)
         )
@@ -11519,7 +11182,7 @@
     (pin "1" (uuid 8205e56d-ff8d-4c7e-934d-e75f730721e9))
     (pin "2" (uuid f46e6818-e6a7-46ce-8a66-f566e90ddbc0))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C2") (unit 1)
         )
@@ -11553,7 +11216,7 @@
     (pin "1" (uuid e1efb337-0df9-422a-af5d-d6083b4cdd0f))
     (pin "2" (uuid 5fa979c1-e34b-4a7b-aebb-27a83ee9edd4))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW34") (unit 1)
         )
@@ -11593,7 +11256,7 @@
     (pin "1" (uuid 2feb9853-3c5d-494b-b5af-c49fbfcfcd34))
     (pin "2" (uuid a1edd02a-bf2a-45bd-92d2-c6cb80eb5aae))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D72") (unit 1)
         )
@@ -11632,7 +11295,7 @@
     (pin "3" (uuid 8ae73ad9-7795-460d-bd90-f933e9c9fa3f))
     (pin "4" (uuid 3431a271-d9e3-446c-be04-1ae5ca216f90))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D29") (unit 1)
         )
@@ -11674,7 +11337,7 @@
     (pin "3" (uuid c992ec2c-431e-4806-aad6-351c7e266399))
     (pin "4" (uuid 1d866b1f-67c5-4478-90c7-5e8f04daf7cf))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D4") (unit 1)
         )
@@ -11709,7 +11372,7 @@
     (pin "1" (uuid d0c89bb0-d770-4a8e-8c4d-31beaf249048))
     (pin "2" (uuid 38008841-210c-4380-af1b-4d70c310ec21))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D20") (unit 1)
         )
@@ -11749,7 +11412,7 @@
     (pin "1" (uuid a7ae0403-7bba-4de0-9a43-f75226fd1886))
     (pin "2" (uuid ea6f708f-4c84-40b5-9a3b-c2e3f8188244))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D42") (unit 1)
         )
@@ -11783,7 +11446,7 @@
     (pin "1" (uuid 93c44406-4b9a-4895-8f85-66abdcf41edb))
     (pin "2" (uuid 8912525e-4469-47c6-b4f8-30973abcc234))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW4") (unit 1)
         )
@@ -11825,7 +11488,7 @@
     (pin "3" (uuid 290e7576-e6f6-4c86-8e3c-2dd0d869a3ac))
     (pin "4" (uuid 9d893646-14e8-495d-8ba7-54fbcc1c5eb2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D34") (unit 1)
         )
@@ -11860,7 +11523,7 @@
     (pin "1" (uuid ffdf891a-88ca-4da5-9057-4f720e617ce9))
     (pin "2" (uuid 971a20ec-a306-4f39-9280-715675601346))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D86") (unit 1)
         )
@@ -11894,7 +11557,7 @@
     (pin "1" (uuid 6bfb1308-c517-4231-8580-83f0394bd134))
     (pin "2" (uuid 6c862a7f-4878-49b6-879e-a8e74df06b7b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW7") (unit 1)
         )
@@ -11934,7 +11597,7 @@
     (pin "1" (uuid e658ba9f-fb98-44ce-8c12-a39952f1b982))
     (pin "2" (uuid fecda413-2a14-4c36-b509-f0509b886be5))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D44") (unit 1)
         )
@@ -11974,7 +11637,7 @@
     (pin "1" (uuid 78075163-ab44-4bbf-992e-86c1823ad429))
     (pin "2" (uuid c1a55d4f-5ec2-477f-917b-f2513a13a15d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D9") (unit 1)
         )
@@ -12014,7 +11677,7 @@
     (pin "1" (uuid 5b9baa96-b1d2-43a5-a32a-073d1d9a20be))
     (pin "2" (uuid 7aa04cee-4eb4-46b1-8a52-e350fcdb8d3f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D67") (unit 1)
         )
@@ -12048,7 +11711,7 @@
     (pin "1" (uuid 422cce26-56cf-412b-95c8-30454bd9a082))
     (pin "2" (uuid 4b43e0aa-6cfc-4541-beef-f66e40175191))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW18") (unit 1)
         )
@@ -12082,7 +11745,7 @@
     (pin "1" (uuid 7dff1cb5-da57-4e4d-814b-0dc04b3069fe))
     (pin "2" (uuid 918502c2-e475-4d91-af32-fc3513e38f66))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW26") (unit 1)
         )
@@ -12119,7 +11782,7 @@
     (pin "4" (uuid 262f5adf-35c9-46b7-9c42-1688e4f47288))
     (pin "5" (uuid 27fa3902-6a1f-4bf2-b3e5-2a1a4e7561ff))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U6") (unit 1)
         )
@@ -12149,7 +11812,7 @@
     )
     (pin "1" (uuid c18c5ffd-f611-4c1b-bfaa-10b0336a987d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR023") (unit 1)
         )
@@ -12183,7 +11846,7 @@
     (pin "1" (uuid 6e1b7798-ef79-4fa0-b6d7-4cb82fd545ee))
     (pin "2" (uuid 42a2df70-5998-44dd-9f30-d2b3b0338762))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW19") (unit 1)
         )
@@ -12223,7 +11886,7 @@
     (pin "1" (uuid 1969a241-4c4f-46d2-8822-9baedf6f507e))
     (pin "2" (uuid 424a0439-d4c9-4761-a9c0-f9abfcd522de))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D93") (unit 1)
         )
@@ -12263,7 +11926,7 @@
     (pin "1" (uuid c3202bcc-69bb-457c-80c1-3069be9c2572))
     (pin "2" (uuid 69378c29-4813-4dba-9a90-b5d0a7145c5e))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D77") (unit 1)
         )
@@ -12303,7 +11966,7 @@
     (pin "1" (uuid f335b327-bfeb-4447-9dd9-53ddeb54d66f))
     (pin "2" (uuid a8e218f0-3c35-4e9a-ac2f-f2bad8758d6d))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D74") (unit 1)
         )
@@ -12337,7 +12000,7 @@
     (pin "1" (uuid 73012acb-d645-41ed-b8b2-95635208659b))
     (pin "2" (uuid e33b7597-0b35-4558-8c97-4a04c9063c19))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW2") (unit 1)
         )
@@ -12371,7 +12034,7 @@
     (pin "1" (uuid 7fdd0584-fe57-4767-a650-b4810de98c51))
     (pin "2" (uuid 58157a16-a80c-4bff-92e6-7babec9e2ea9))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW5") (unit 1)
         )
@@ -12405,7 +12068,7 @@
     (pin "1" (uuid 40d2e157-c811-4194-b58c-76404477d29d))
     (pin "2" (uuid eba60c54-9077-4762-bdd7-d0dac08e226a))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW38") (unit 1)
         )
@@ -12439,7 +12102,7 @@
     (pin "1" (uuid 0466f8c1-ebc2-44e2-bf57-ea2c2d3e626b))
     (pin "2" (uuid ece22629-8317-44f8-ae51-8cbf8a632870))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW8") (unit 1)
         )
@@ -12473,7 +12136,7 @@
     (pin "1" (uuid 738d851f-1044-4078-b586-04a0085e3c27))
     (pin "2" (uuid 117e4737-42e8-4db1-8e82-bd58a80409f5))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW35") (unit 1)
         )
@@ -12513,7 +12176,7 @@
     (pin "1" (uuid 9cf8888a-1807-42f2-a54f-543978715ea1))
     (pin "2" (uuid f9fd385f-e170-44ba-99c5-5ab583a03bea))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D65") (unit 1)
         )
@@ -12549,7 +12212,7 @@
     (pin "C" (uuid 8f1fe72b-f780-4f32-a932-9d3f5ddfa6c9))
     (pin "D" (uuid 322e9d2d-f3ec-4481-b69c-09a1f6192af3))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "J2") (unit 1)
         )
@@ -12589,7 +12252,7 @@
     (pin "1" (uuid 8931444e-e5ab-464d-807b-3968a55b1cf6))
     (pin "2" (uuid 5e8f91c2-da53-4c27-9b65-f9fb4e7e5485))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D64") (unit 1)
         )
@@ -12628,7 +12291,7 @@
     (pin "3" (uuid d7200e8e-2f56-4605-bc8d-482a31df0ca2))
     (pin "4" (uuid 10f30c10-31f3-45e4-8d67-87ea9b429e28))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D31") (unit 1)
         )
@@ -12668,7 +12331,7 @@
     (pin "1" (uuid 16728f81-299b-4d66-91e3-c8cda71499d8))
     (pin "2" (uuid a9b57e4a-f9bc-4de7-b92e-c90fdac7dd65))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW40") (unit 1)
         )
@@ -12702,7 +12365,7 @@
     (pin "1" (uuid 3c3c982f-f049-4324-bd56-5297b2ef0480))
     (pin "2" (uuid cc602c1e-52ac-4103-8c25-2314aa6410fd))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW30") (unit 1)
         )
@@ -12744,7 +12407,7 @@
     (pin "3" (uuid 34348e3e-352d-44b5-9656-4d8e15097d76))
     (pin "4" (uuid 8a164ef2-3bc6-4871-879d-13d530809bc1))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D96") (unit 1)
         )
@@ -12781,7 +12444,7 @@
     (pin "3" (uuid 87ac8e88-f615-424e-a149-b0c0cf58a91d))
     (pin "4" (uuid 379bdabd-3c82-4b83-9142-99b384d956b6))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D21") (unit 1)
         )
@@ -12816,7 +12479,7 @@
     (pin "1" (uuid 910e0158-bf5b-49d8-8913-c4cace45abd7))
     (pin "2" (uuid 33ce2f63-3de0-4512-93f4-ec305a56d74a))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D90") (unit 1)
         )
@@ -12856,7 +12519,7 @@
     (pin "1" (uuid 48f91274-d91e-4b02-b858-c431c5d68d6c))
     (pin "2" (uuid cef84ee6-aa8c-44b4-b30e-2c8629feadd2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D79") (unit 1)
         )
@@ -12898,7 +12561,7 @@
     (pin "3" (uuid 06ff0aae-fb03-41a8-9564-58368adcba8c))
     (pin "4" (uuid 06fe9d02-024f-4770-8ccf-c430f935ffd5))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D49") (unit 1)
         )
@@ -12927,7 +12590,7 @@
     (pin "1" (uuid efc27d42-00fc-421e-8474-189760a3f2fa))
     (pin "2" (uuid 4ea0ff91-95c2-4376-b294-8e5fb529274a))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW1") (unit 1)
         )
@@ -12966,7 +12629,7 @@
     (pin "3" (uuid 4d32118e-1cea-451c-b2df-bd282fc92988))
     (pin "4" (uuid b4589c4e-2638-4c57-8582-ac63eabbdf73))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D68") (unit 1)
         )
@@ -12996,7 +12659,7 @@
     )
     (pin "1" (uuid bb93d559-1029-4640-9df0-fffc0a79064b))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "#PWR022") (unit 1)
         )
@@ -13036,7 +12699,7 @@
     (pin "1" (uuid eabaeb8e-dc93-40a5-bf36-eb19cf6f8e49))
     (pin "2" (uuid 998c544e-358c-4129-a3d9-a6b5e8e86a4f))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D80") (unit 1)
         )
@@ -13100,7 +12763,7 @@
     (pin "8" (uuid fcd7fd56-9daa-40ef-90d2-ad26de494372))
     (pin "9" (uuid c9943f4a-d17f-4971-85ee-1808fa6ba3f2))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "U1") (unit 1)
         )
@@ -13139,7 +12802,7 @@
     (pin "3" (uuid 7fd221d7-fe9f-457d-8067-03c98b648720))
     (pin "4" (uuid b8585854-316d-4643-9a8d-75dc7db81472))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "D26") (unit 1)
         )
@@ -13173,7 +12836,7 @@
     (pin "1" (uuid a495c387-dd54-432c-a195-9239c7eb0181))
     (pin "2" (uuid e0ea9bb9-271c-4288-bc0f-80ae656a2605))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "SW28") (unit 1)
         )
@@ -13213,7 +12876,7 @@
     (pin "1" (uuid 55bb479f-70ca-4fbc-80f8-7d30f13b2f2a))
     (pin "2" (uuid 07b91886-18dc-4d7c-82f5-5db189d31359))
     (instances
-      (project "wired-split"
+      (project "wired-wizza"
         (path "/d0fcf05d-0631-4472-9353-7bb2cc47fb97"
           (reference "C3") (unit 1)
         )
