@@ -95,6 +95,7 @@ Here's how the PCBs look like:
 | ![front](pcb_images/40keys/Zazu/Zazu/Zazu-top.png) | 
 
 # Pictures
+![Wired Wizza](/Pictures/Wired-Wizza.jpg)
 ![active-boards](/Pictures/active-boards-2.jpg)
 ![Zazu](/Pictures/Zazu.jpg)
 
