@@ -3,15 +3,19 @@
 All the split boards here are/have:
 
 - 34/32/30 keys
-- Wireless
-- Diodeless
 - Tenting Puck support
-- JST Connector for battery
+- JST Connector for battery (when wireless)
 
 ### TODO
 
-- Trye a trackball mount with 4mm steel ball bearings and built in BTUs
+- Try a trackball mount with 4mm steel ball bearings and built in BTUs
 - Build Rommana with DES shoc and make a flex PCB for it
+
+# Pictures
+![Wired Wizza](/Pictures/Wired-Wizza.jpg)
+![active-boards](/Pictures/active-boards-2.jpg)
+![Zazu](/Pictures/Zazu.jpg)
+
 
 Here's how the PCBs look like:
 
@@ -93,11 +97,6 @@ Here's how the PCBs look like:
 | Front | 
 | :---: | 
 | ![front](pcb_images/40keys/Zazu/Zazu/Zazu-top.png) | 
-
-# Pictures
-![Wired Wizza](/Pictures/Wired-Wizza.jpg)
-![active-boards](/Pictures/active-boards-2.jpg)
-![Zazu](/Pictures/Zazu.jpg)
 
 ## Credits/references
 
