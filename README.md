@@ -108,3 +108,6 @@ All of the boards here wouldn't be possible without the help of some awesome peo
 - [Hazel](https://github.com/jasonhazel)
 - [Freznel](https://github.com/freznel10)
 - [Duckyb](https://github.com/duckyb)
+- [Grinnie](https://github.com/regicidalplutophage)
+- [Weteor](https://github.com/weteor)
+- [aki27](https://twitter.com/aki27kbd)
