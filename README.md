@@ -12,11 +12,11 @@ All the split boards here are/have:
 - Build Rommana with DES shoc and make a flex PCB for it
 
 # Pictures
-![Wired Wizza](/Pictures/Wired-Wizza.jpg)
-![active-boards](/Pictures/active-boards-2.jpg)
-![Zazu](/Pictures/Zazu.jpg)
+![Wired Wizza](/Pictures/Wired-Wizza.jpeg)
 ![BatreeqV2Rectangle](/Pictures/BatreeqV2Rectangle.jpg)
+![Zazu](/Pictures/Zazu.jpg)
 ![Barghoot](/Pictures/Barghoot.jpg)
+![active-boards](/Pictures/active-boards-2.jpg)
 
 
 Here's how the PCBs look like:
