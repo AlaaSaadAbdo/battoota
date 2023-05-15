@@ -15,6 +15,8 @@ All the split boards here are/have:
 ![Wired Wizza](/Pictures/Wired-Wizza.jpg)
 ![active-boards](/Pictures/active-boards-2.jpg)
 ![Zazu](/Pictures/Zazu.jpg)
+![BatreeqV2Rectangle](/Pictures/BatreeqV2Rectangle.jpg)
+![Barghoot](/Pictures/Barghoot.jpg)
 
 
 Here's how the PCBs look like:
