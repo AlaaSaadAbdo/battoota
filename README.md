@@ -1,15 +1,5 @@
 # Disclaimer: Please keep in mind that there are prototypes here. Use the files at your own risk.
 
-All the split boards here are/have:
-
-- 34/32/30 keys
-- Tenting Puck support
-- JST Connector for battery (when wireless)
-
-### TODO
-
-- Try a trackball mount with 4mm steel ball bearings and built in BTUs
-- Build Rommana with DES shoc and make a flex PCB for it
 
 # Pictures
 ![Wired Wizza](/Pictures/Wired-Wizza.jpeg)
