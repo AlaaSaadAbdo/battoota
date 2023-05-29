@@ -1,0 +1,285 @@
+units:
+  # Parameters
+  # ==========
+  capx: cx        # Key cap size horizontal
+  capy: cy        # Key cap size vertical
+  kx: cx + 0.5    # Key spacing horizontal
+  ky: cy + 0.5    # Key spacing vertical
+  angle: 27       # Angle between halves
+  pinky_stagger: 2/3ky
+  pinky_splay: 6  # Degrees of splay between pinky and ring columns
+  pinky_adj: -3   # Adjustment to compensate for splay spacing
+  ring_splay: 4
+  ring_adj: -8
+  middle_splay: 0
+  middle_adj: 0
+
+
+  # Constants
+  # =========
+  xiao_x: 17.5
+  xiao_y: 20
+  visual_x: 1     # Visual representation of keycaps horizontal
+  visual_y: 1     # Visual representation of keycaps vertical
+  sf: 16          # Switch footprint (square)
+
+points:
+  zones.matrix:
+    rotate: -angle + pinky_splay + ring_splay
+    mirror: &mirror
+      ref: matrix_inner_top
+      shift: [0.5sf, 0.5sf]
+      distance: 25
+    key: &key
+      width: capx
+      height: capy
+      autobind: false      
+      tags:
+        keys: true
+      footprints:
+      - type: choc
+        nets:
+          from: =row_net
+          to: =column_net
+        params:
+          keycaps: true
+    rows:
+      bottom.padding: ky
+      home.padding: ky
+      top.padding: ky
+    columns.pinky:
+      key.spread: kx
+      rows:
+        bottom.skip: true
+        home:
+          bind: [0.5ky, 0.5kx, 0, 0]
+          row_net: P2
+          column_net: P6
+        top:
+          bind: [0, 0.5kx, 0.5ky, 0]
+          row_net: P0
+          column_net: P6
+        home.mirror:
+          row_net: P3
+          column_net: P10
+        top.mirror:
+          row_net: P1
+          column_net: P10
+    columns.ring:
+      key:
+        spread: kx
+        stagger: pinky_stagger
+        splay: -pinky_splay
+        origin: [0, pinky_adj]
+      rows:
+        bottom:
+          bind: [0.5ky, 0, 0, 0]
+          row_net: P4
+          column_net: P6
+        home:
+          bind: [0, 0.5kx, 0, 0]
+          row_net: P3
+          column_net: P6
+        top:
+          bind: [0, 0.5kx, 0.5ky, 0]
+          row_net: P1
+          column_net: P6
+        bottom.mirror:
+          row_net: P5
+          column_net: P9
+        home.mirror:
+          row_net: P2
+          column_net: P10
+        top.mirror:
+          row_net: P0
+          column_net: P10
+    columns.middle:
+      key:
+        spread: kx
+        stagger: 0.25ky
+        splay: -ring_splay
+        origin: [0, ring_adj]
+      rows:
+        bottom:
+          bind: [0.5ky, 0.5kx, 0, 0.5kx]
+          row_net: P5
+          column_net: P6
+        home:
+          bind: [0, 0.5kx, 0, 0]
+          row_net: P2
+          column_net: P7
+        top:
+          bind: [0, 0, 0.5ky, 0]
+          row_net: P0
+          column_net: P7
+        bottom.mirror:
+          row_net: P4
+          column_net: P9
+        home.mirror:
+          row_net: P3
+          column_net: P9
+        top.mirror:
+          row_net: P1
+          column_net: P9
+    columns.index:
+      key:
+        spread: kx
+        stagger: -0.3ky
+        splay: -middle_splay
+      rows:
+        bottom:
+          bind: [0.5ky, 0, 0, 0]
+          row_net: P4
+          column_net: P7
+        home:
+          row_net: P3
+          column_net: P7
+        top:
+          bind: [0, 0, 0.5ky, 0.5kx]
+          row_net: P1
+          column_net: P7
+        bottom.mirror:
+          row_net: P5
+          column_net: P8
+        home.mirror:
+          row_net: P2
+          column_net: P9
+        top.mirror:
+          row_net: P0
+          column_net: P9
+    columns.inner:
+      key:
+        spread: kx
+        stagger: -0.2ky
+      rows:
+        home:
+          bind: [0.5ky, 0, 0.5ky, 0.5kx]
+          row_net: P2
+          column_net: P8
+          tags:
+            matrix_inner: true
+        top:
+          bind: [0, 0, 0.5ky, 0.5kx]
+          row_net: P0
+          column_net: P8
+          tags:
+            matrix_inner: true
+        bottom: 
+          bind: [0, 0, 0ky, 0kx]
+          row_net: P0
+          column_net: P8
+          tags:
+            matrix_inner: true
+        home.mirror:
+          row_net: P3
+          column_net: P8
+        top.mirror:
+          row_net: P1
+          column_net: P8
+        bottom.mirror:
+          row_net: P1
+          column_net: P8
+  zones.thumb:
+    anchor:
+      ref: matrix_index_bottom
+      shift: [0.75kx, -22]
+    mirror: *mirror
+    key: *key
+    columns:
+      tucky:
+        key:
+          name: thumb_tucky
+          bind: [0.5ky, 0.5kx, 0, 0]
+          row_net: P5
+          column_net: P7
+        key.mirror:
+          row_net: P4
+          column_net: P10
+      reachy:
+        key:
+          spread: 1.1kx
+          stagger: -.15ky        
+          name: thumb_reachy
+          bind: [1.5ky, 0, 0, 0]
+          row_net: P4
+          column_net: P8
+          splay: -15
+        key.mirror:
+          row_net: P5
+          column_net: P10
+outlines:
+    _key_outline:
+      - what: rectangle
+        bound: true
+        size: 1.3sf
+        where: [keys]
+    _center:
+      - what: polygon
+        points:
+        - ref: matrix_inner_top
+          shift: [0, 0]
+        - ref: mirror_matrix_inner_top
+          shift: [0, 0]
+        - ref: mirror_thumb_reachy
+        - ref: thumb_reachy
+      - what: rectangle
+        bound: true
+        size: sf
+        where: [matrix_inner]  # Include the inner keys in addition to the center polygon 
+    _panel:
+      - name: _center
+        fillet: 3  # The inner rounding where the glue meets the top center keys
+      - operation: subtract
+        what: circle
+        adjust:
+          aggregate.parts: [thumb_reachy, mirror_thumb_reachy]
+          shift: [0, 0.2sf - 70]
+        radius: 70  # Should be the same as the last number in `shift` above
+      - _key_outline
+    panel:
+      - name: _panel
+        fillet: 1.5
+    _switches:
+      - what: rectangle
+        size: 14
+        where: [keys]
+    _keycaps:
+      - what: rectangle
+        size: [capx, capy]
+        where: [keys]
+    demo_switches:
+      - panel
+      - ^_switches
+    demo_keycaps:
+      - panel
+      - ^_keycaps
+    switchplate:
+      - panel
+      - operation: subtract
+        name: _switches
+        fillet: 0.5
+pcbs:
+  rufous_splay:
+    outlines:
+      main:
+        outline: panel
+    footprints:
+      choc_hotswap:
+        what: choc
+        where: true
+        params:
+          from: =column_net
+          to: GND
+          keycaps: true
+          reverse: true
+          hotswap: true
+      choc:
+        what: choc
+        where: true
+        adjust:
+          rotate: 180
+        params:
+          from: =column_net
+          to: GND
+          keycaps: true
+          reverse: true
