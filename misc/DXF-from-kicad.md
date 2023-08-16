@@ -22,6 +22,6 @@ I will be using [Qeshda](../boards/34keys/Qeshda/Qeshda/) as an example to gener
 
 You can always use the Plot (File > Plot) function to plot DXF directly from kicad.  
 The catch is that kicad doesn't handle curves well and will end up generating a lot of small lines instead of an arc which makes using the sketch very slow.
-![dxf_from_kicad](plot_dxf)
+![dxf_from_kicad](./images/plot_dxf.png)
 
 
