@@ -2,93 +2,12 @@
 
 
 # Pictures
+![Ghazal](/Pictures/Ghazal.jpg)
 ![Wired Wizza](/Pictures/Wired-Wizza.jpeg)
 ![BatreeqV2Rectangle](/Pictures/BatreeqV2Rectangle.jpg)
 ![Zazu](/Pictures/Zazu.jpg)
 ![Barghoot](/Pictures/Barghoot.jpg)
 ![active-boards](/Pictures/active-boards-2.jpg)
-
-
-Here's how the PCBs look like:
-
-# Split
-
-## 30 Keys
-
-### Wizza
-
-| Front | Back |
-| :---: | :---: |
-| ![front](pcb_images/30keys/wizza/wizza/wizza-top.png) | ![back](pcb_images/30keys/wizza/wizza/wizza-bottom.png) |
-
-### Wizza Choc V1 MX spacing
-| Front | Back |
-| :---: | :---: |
-| ![front](pcb_images/30keys/Wizza-chocV1-MX_Spacing/wizza/wizza-top.png) | ![back](pcb_images/30keys/Wizza-chocV1-MX_Spacing/wizza/wizza-bottom.png) |
-
-### Wizza Choc V2
-| Front | Back |
-| :---: | :---: |
-| ![front](pcb_images/30keys/wizza-chocV2/wizza/wizza-top.png) | ![back](pcb_images/30keys/wizza-chocV2/wizza/wizza-bottom.png) |
-
-### Wizza MX
-| Front | Back |
-| :---: | :---: |
-| ![front](pcb_images/30keys/wizza-mx/wizza/wizza-top.png) | ![back](pcb_images/30keys/wizza-mx/wizza/wizza-bottom.png) |
-
-### Battoota
-| Front | Back |
-| :---: | ---: |
-| ![front](pcb_images/30keys/battoota/battoota/battoota-top.png) | ![back](pcb_images/30keys/battoota/battoota/battoota-bottom.png) |
-
-### Wired Wizza
-| Front | 
-| :---: | 
-| ![front](pcb_images/30keys/wired-wizza/wired-wizza/wired-wizza-top.png) | 
-
-## 32 Keys
-
-### Battoota-3thumb
-
-| Front | Back |
-| :---: | :---: |
-| ![front](pcb_images/32keys/battoota-3thumb/battoota/battoota-top.png) | ![back](pcb_images/32keys/battoota-3thumb/battoota/battoota-bottom.png) |
-
-### Konafa
-| Front | Back |
-| :---: | :---: |
-| ![front](pcb_images/32keys/konafa/konafa/konafa-top.png) | ![back](pcb_images/32keys/konafa/konafa/konafa-bottom.png) |
-
-## 34 Keys
-
-### Basbousa
-| Front | Back |
-| :---: | :---: |
-| ![front](pcb_images/34keys/basbousa/basbousa/basbousa-top.png) | ![back](pcb_images/34keys/basbousa/basbousa/basbousa-bottom.png) |
-
-# Unibody
-
-## 30 Keys
-
-### Asfoora
-| Front | 
-| :---: | 
-| ![front](pcb_images/30keys/Asfoora/Asfoora/Asfoora-top.png) | 
-
-### Batreeq
-#### V1
-| Front | 
-| :---: | 
-| ![front](pcb_images/30keys/Batreeq/V1/Batreeq/Batreeq-top.png) | 
-#### V2
-| Front | 
-| :---: | 
-| ![front](pcb_images/30keys/Batreeq/V2/BatreeqV2/BatreeqV2-top.png) | 
-
-### Zazu
-| Front | 
-| :---: | 
-| ![front](pcb_images/40keys/Zazu/Zazu/Zazu-top.png) | 
 
 ## Credits/references
 
