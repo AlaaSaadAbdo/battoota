@@ -22,3 +22,4 @@ All of the boards here wouldn't be possible without the help of some awesome peo
 - [Grinnie](https://github.com/regicidalplutophage)
 - [Weteor](https://github.com/weteor)
 - [aki27](https://twitter.com/aki27kbd)
+- [chewiedies](https://www.printables.com/@chewiedies_360738)
