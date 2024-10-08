@@ -395,7 +395,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BatreeqV2.kicad_pro",
+    "filename": "Ghazal.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -431,7 +431,7 @@
       "idf": "",
       "netlist": "Asfoora.net",
       "specctra_dsn": "",
-      "step": "Asfoora.step",
+      "step": "Ghazal.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
